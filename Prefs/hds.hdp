@@ -1,5 +1,6 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
+Chronometer_test = $HDS_PROJECT_DIR\..\Chronometer_test\concat
 [ModelSim]
 Board = $SCRATCH_DIR/$DESIGN_NAME/Board/work
 Chronometer = $SCRATCH_DIR/$DESIGN_NAME/Chronometer/work
