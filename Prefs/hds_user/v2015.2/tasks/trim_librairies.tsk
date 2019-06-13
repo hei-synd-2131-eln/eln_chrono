@@ -1,0 +1,39 @@
+version "1.1"
+HDSTool (HDSTool
+hasAssociatedFileExt 0
+associatedFileExt ""
+TaskName "Trim librairies"
+bitmap "tool_default_tool.bmp"
+hasBitmap 1
+tooltip "comment out library declarations for singles file"
+taskSettings [
+"InternalTaskSetting"
+(SettingsMap
+settingsMap [
+"additionalToolArgs"
+"trimLibs.pl %(concat_file).vhd"
+"captureOutput"
+"1"
+"customPrompt"
+""
+"initialDir"
+"%(library_downstream_Concatenation)"
+"promptForRunSettings"
+"0"
+"runnableObject"
+"%(task_HDSPath)\\resources\\perl\\bin\\perl.exe"
+"runnableObjectType"
+"executable"
+"useViewSpecific"
+"0"
+]
+)
+]
+PreferedTasks [
+]
+onShortcutBar 0
+onPulldownMenu 0
+onToolbar 0
+enabled 1
+hierDepth 3
+)
