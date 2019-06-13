@@ -1,7 +1,7 @@
 version "1.1"
 HDSFlow (HDSFlow
 TaskName "Prepare for Synthesis"
-bitmap "$HDS_HOME\\resources\\bitmaps\\tools\\tool_leonardo.bmp"
+bitmap "$HDS_HOME\\resources\\bitmaps\\tools\\tool_synthesis.bmp"
 hasBitmap 1
 tooltip "generates a single file"
 taskSettings [
@@ -130,19 +130,19 @@ taskSettings [
 (SettingsMap
 settingsMap [
 "additionalToolArgs"
-"trimLibs.pl \"%(concat_file).vhd\""
+".\\..\\..\\Scripts\\trimLibs.pl %(concat_file).vhd $DESIGN_NAME.vhd"
 "captureOutput"
 "1"
 "customPrompt"
 ""
 "initialDir"
-"%(library_downstream_Concatenation)"
+"$CONCAT_DIR"
 "promptForRunSettings"
 "0"
 "runMethod"
 "gui"
 "runnableObject"
-"%(task_HDSPath)\\resources\\perl\\bin\\perl.exe"
+"$HDS_HOME\\resources\\perl\\bin\\perl.exe"
 "runnableObjectType"
 "executable"
 "useViewSpecific"

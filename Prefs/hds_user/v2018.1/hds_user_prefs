@@ -1140,10 +1140,6 @@ first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l)"
 )
 (pair
-first "SublimeText"
-second "\"C:\\tools\\Sublime Text 3\\sublime_text.exe\" \"%(p)"
-)
-(pair
 first "Textpad 3.2"
 second "txtpad32.exe \"%(p)(%(l))\""
 )
@@ -1195,7 +1191,7 @@ second "uedit32.exe \"%(p)/%(l)\" /r"
 )
 ]
 defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "SublimeText"
+win32DefaultEditor "UltraEdit"
 win32DefaultViewer "UltraEdit"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
@@ -1266,7 +1262,9 @@ projectPaths [
 "R:\\SYND\\Ele_2131\\ELN\\Labs\\Cursor\\ELN_cursor\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\Projects\\Cursor_trial\\Prefs\\cursor.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\Cursor_trial\\Prefs\\cursor.hdp"
-"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\eln_chrono.hdp"
+"C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\eln_labs.hdp"
+"C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
+"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1792,11 +1790,9 @@ defaultCategoryTemplatesPrefs [
 0
 ]
 tasksOrder [
+"USER:Generate"
 "USER:ModelSim Compile"
 "USER:ModelSim Simulate"
-"USER:Trim librairies"
-"USER:Concatenate HDL"
-"USER:Generate"
 "USER:ModelSim Flow"
 "USER:Prepare for Synthesis"
 "USER:Xilinx Project Navigator"
@@ -4330,7 +4326,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x867+1311+69"
+logWindowGeometry "600x867+1238+103"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6253,7 +6249,6 @@ activeViewpointIdx 0
 name "Board"
 showingHierarchy 0
 openLibs [
-"Board"
 ]
 declHierarchy [
 (DeclHierarchy
@@ -6265,20 +6260,27 @@ secondaryName ""
 activeViewpointIdx 0
 )
 (WorkTab
-name "Chronometer"
+name "LCD"
 showingHierarchy 0
 openLibs [
-"Chronometer"
 ]
 declHierarchy [
 ]
 activeViewpointIdx 0
 )
 (WorkTab
-name "Chronometer_test"
+name "<Empty>"
 showingHierarchy 0
 openLibs [
-"Chronometer_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "<Empty>"
+showingHierarchy 0
+openLibs [
 ]
 declHierarchy [
 ]
@@ -6306,15 +6308,19 @@ size 180
 )
 ]
 displayHierarchy 0
-xPos 324
-yPos 207
-width 1149
-height 823
+xPos 109
+yPos 101
+width 1070
+height 838
 activeSidePanelTab 2
-activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
+componentBrowserXpos 569
+componentBrowserYpos 300
+componentBrowserWidth 300
+componentBrowserHeight 340
 componentBrowserLibraryNames [
+"ADD"
 ]
 )
 (SmPreferences

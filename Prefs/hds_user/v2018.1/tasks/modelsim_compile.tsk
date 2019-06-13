@@ -34,7 +34,7 @@ settingsMap [
 (SettingsMap
 settingsMap [
 "64bit"
-"1"
+"0"
 "compAlways"
 "0"
 "covSwitch"

@@ -18,7 +18,7 @@ settingsMap [
 PreferedTasks [
 (preferedMap
 preferedEnum 0
-preferedSetting "C:\\EDA\\Modelsim\\win32"
+preferedSetting "$MODELSIM_HOME"
 )
 (preferedMap
 preferedEnum 2

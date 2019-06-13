@@ -19,6 +19,9 @@ set REQUIRE_MODELSIM=1
 set REQUIRE_ISE=1
 set REQUIRE_LIBERO=0
 
+:: Set project name
+set design_name=eln_chrono
+
 :: Manually override Library & Tools Folder location
 ::set HEI_LIBS_DIR=R:\SYND\Ele_2131\ELN\Labs\Libraries
 
@@ -37,7 +40,6 @@ set REQUIRE_LIBERO=0
 ::
 set SEPARATOR="--------------------------------------------------------------------------------"
 set INDENT="  "
-set design_name=%~n0
 set design_directory=%~dp0
 ::remove trailing backslash
 if %design_directory:~-1%==\ set design_directory=%design_directory:~0,-1%

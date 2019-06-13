@@ -1,7 +1,7 @@
 version "1.1"
 HDSFlow (HDSFlow
 TaskName "Xilinx Project Navigator"
-bitmap "C:\\eda\\hds\\resources\\bitmaps\\tools\\tool_xilinx_synthesis.bmp"
+bitmap "$HDS_HOME\\resources\\bitmaps\\tools\\tool_xilinx_synthesis.bmp"
 hasBitmap 1
 tooltip "Xilinx Flow"
 taskSettings [
@@ -35,19 +35,19 @@ taskSettings [
 (SettingsMap
 settingsMap [
 "additionalToolArgs"
-"update_ise.pl %(designName).xise"
+"$CONCAT_DIR\\..\\..\\Scripts\\update_ise.pl $DESIGN_NAME.xise $CONCAT_DIR\\$DESIGN_NAME.vhd $CONCAT_DIR\\$DESIGN_NAME.ucf"
 "captureOutput"
 "1"
 "customPrompt"
 ""
 "initialDir"
-"%(task_ISEPath)"
+"$ISE_WORK_DIR"
 "promptForRunSettings"
 "0"
 "runMethod"
 "gui"
 "runnableObject"
-"%(task_HDSPath)\\resources\\perl\\bin\\perl.exe"
+"$HDS_HOME\\resources\\perl\\bin\\perl.exe"
 "runnableObjectType"
 "executable"
 "useViewSpecific"
@@ -75,7 +75,7 @@ taskSettings [
 (SettingsMap
 settingsMap [
 "additionalToolArgs"
-"%(designName).xise"
+"$DESIGN_NAME.xise"
 "captureOutput"
 "0"
 "customPrompt"
@@ -83,7 +83,7 @@ settingsMap [
 "descriptiveName"
 "FPGA Technology Setup Plugin"
 "initialDir"
-"%(task_ISEPath)"
+"$ISE_WORK_DIR"
 "isHierarchical"
 "0"
 "needsSave"
@@ -98,7 +98,7 @@ For additional information, exceptions, compatibility issues and updates, visit 
 "runMethod"
 "gui"
 "runnableObject"
-"%(task_ISEBinPath)\\ISE\\bin\\nt\\ise.exe"
+"$ISE_HOME\\bin\\nt\\ise.exe"
 "runnableObjectType"
 "executable"
 "useViewSpecific"
