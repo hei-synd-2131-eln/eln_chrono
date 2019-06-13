@@ -1,0 +1,66 @@
+#-------------------------------------------------------------------------------
+# Clock and reset
+#
+NET     "clock"         LOC = "A10";
+NET     "reset_n"       LOC = "A15"     | PULLUP;
+NET     "testMode"      LOC = "T10";
+
+#-------------------------------------------------------------------------------
+# FPGA-EBS
+#
+NET     "LED1"          LOC = "B16";
+NET     "LED2"          LOC = "A16";
+
+#-------------------------------------------------------------------------------
+# HEB-LCD V1
+#
+NET     "restart_n"     LOC = "E8" ;
+NET     "start_n"       LOC = "G9" ;
+NET     "stop_n"        LOC = "F9" ;
+NET     "button4_n"     LOC = "F7" ;
+NET     "LEDs_n<1>"     LOC = "E7" ;
+NET     "LEDs_n<2>"     LOC = "B14";
+NET     "LEDs_n<3>"     LOC = "B13";
+NET     "LEDs_n<4>"     LOC = "B11";
+NET     "LEDs_n<5>"     LOC = "A8" ;
+NET     "LEDs_n<6>"     LOC = "C7" ;
+NET     "LEDs_n<7>"     LOC = "A14";
+NET     "LEDs_n<8>"     LOC = "A11";
+
+#-------------------------------------------------------------------------------
+# HEB-LCD V2
+#
+#NET     "restart_n"     LOC = "F8" ;
+#NET     "start_n"       LOC = "F7" ;
+#NET     "stop_n"        LOC = "F9" ;
+#NET     "button4_n"     LOC = "G9" ;
+#NET     "LEDs_n<1>"     LOC = "E9" ;
+#NET     "LEDs_n<2>"     LOC = "A8";
+#NET     "LEDs_n<3>"     LOC = "F11";
+#NET     "LEDs_n<4>"     LOC = "B11";
+#NET     "LEDs_n<5>"     LOC = "B13";
+#NET     "LEDs_n<6>"     LOC = "B14";
+#NET     "LEDs_n<7>"     LOC = "E7" ;
+#NET     "LEDs_n<8>"     LOC = "E8" ;
+#NET     "LCD_CS1_n"     LOC = "A11";
+#NET     "LCD_SCL"       LOC = "D7" ;
+#NET     "LCD_SI"        LOC = "C7" ;
+#NET     "LCD_A0"        LOC = "A14";
+#NET     "LCD_RST_n"     LOC = "A13";
+
+#-------------------------------------------------------------------------------
+# Motor interface
+#
+NET     "motorOn1"      LOC = "B4" ;
+NET     "motorOn2"      LOC = "B3" ;
+NET     "coil1_n"       LOC = "G6" ;
+NET     "coil2_n"       LOC = "C5" ;
+NET     "coil3_n"       LOC = "C4" ;
+NET     "coil4_n"       LOC = "C3" ;
+NET     "sensor_n"      LOC = "A4" ;
+
+#-------------------------------------------------------------------------------
+# Globals
+#
+NET "*" IOSTANDARD = LVCMOS33;
+
