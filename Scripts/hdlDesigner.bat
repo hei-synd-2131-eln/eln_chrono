@@ -19,12 +19,13 @@
 if %cmd_location:~-1%==\ set design_directory=%design_directory:~0,-1%
 
 set design_name=%~n0
+set hpd_name=hds
 
 if "%ISE_VERSION%"== "" (
   set ISE_VERSION=14.7
 )
 set prefs_directory="%design_directory:"=%\Prefs"
-set library_matchings="%design_name:"=%.hdp"
+set library_matchings="%hpd_name%.hdp"
 set simulation_directory="%design_directory:"=%\Simulation"
 set user_prefs_directory="%prefs_directory:"=%\hds_user"
 set team_prefs_directory="%prefs_directory:"=%\hds_team"
@@ -43,8 +44,8 @@ set concat_directory="%design_directory:"=%\Board\concat"
 set usage1="Usage: hdl_designer.bat [-v] [-h]"
 set usage2="                        [-n designName] [-d designDirectory]"
 set usage3="                        [-p prefsDirectory] [-u userPrefsDirectory] [-t teamPrefsDirectory]"
-set usage4="                        [-i simulationDirectory]"
-set usage5="                        [-m library_matchings] [-i simulationDirectory]"
+set usage4="                        [-s scratchDirectory] [-c concatDirectory]"
+set usage5="                        [-y synthesisDirectory] [-m library_matchings]"
 
 echo "Search Commandline Parameters"
 :parseloop
@@ -60,7 +61,6 @@ if not "%1"=="" (
     )
     if "%1"=="-n" (
         set design_name=%2
-        set library_matchings="!design_name:"=!.hdp"
         echo "%INDENT:"=%design_name=!design_name:"=! "
         shift & shift
     )
@@ -97,6 +97,11 @@ if not "%1"=="" (
     if "%1"=="-y" (
         set synthesis_subdirectory=%2
         echo "%INDENT:"=%synthesis_subdirectory=%synthesis_subdirectory:"=% "
+        shift & shift
+    )
+    if "%1"=="-m" (
+        set set library_matchings="%2.hdp"
+        echo "%INDENT:"=%library_matchings=%library_matchings:"=% "
         shift & shift
     )
     goto :parseloop
