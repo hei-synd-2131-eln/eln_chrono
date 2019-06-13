@@ -2,7 +2,7 @@
   <br>
   <img src="./img/ELN_chrono.png" alt="ELN Chrono Logo" width="200" height="200">
   <br>
-  ELN Laboratories
+  ELN Project Chronometer
   <br>
 </h1>
 
