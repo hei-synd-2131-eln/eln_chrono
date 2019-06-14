@@ -1265,6 +1265,7 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\eln_labs.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -6286,6 +6287,26 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "Chronometer_test"
+showingHierarchy 0
+openLibs [
+"Chronometer_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Board"
+showingHierarchy 0
+openLibs [
+"Board"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6313,6 +6334,7 @@ yPos 101
 width 1070
 height 838
 activeSidePanelTab 2
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569
