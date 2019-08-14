@@ -6286,6 +6286,16 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "Board"
+showingHierarchy 0
+openLibs [
+"Board"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6308,11 +6318,12 @@ size 180
 )
 ]
 displayHierarchy 0
-xPos 109
-yPos 101
+xPos 96
+yPos 95
 width 1070
 height 838
 activeSidePanelTab 2
+activeLibraryTab 1
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569
