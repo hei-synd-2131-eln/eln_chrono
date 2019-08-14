@@ -1,7 +1,6 @@
 ::==============================================================================
 :: search_paths.bat - Search for Libraries and HDL Tools
 ::
-
 :start
   @echo off
   set cmd_location="%~dp0"
@@ -106,8 +105,7 @@ if !REQUIRE_MODELSIM! == 1 (
 ::------------------------------------------------------------------------------
 :: Search Xilinx ISE directory
 ::
-
-if !REQUIRE_ISE! == 1 (
+if %REQUIRE_ISE% == 1 (
   if "%ISE_HOME%" == "" (
     set ISE_HOME=C:\eda\Xilinx\!ISE_VERSION:"=!\ISE_DS\ISE
     if not exist !ISE_HOME!\ (
