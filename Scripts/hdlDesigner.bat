@@ -34,7 +34,12 @@ if "%SCRATCH_DIR%" == "" (
 ) else (
   set scratch_directory=%SCRATCH_DIR%
 )
-set synthesis_subdirectory="Board\ise"
+if %REQUIRE_ISE% == 1 (
+  set synthesis_subdirectory="Board\ise"
+)
+if %REQUIRE_LIBERO% == 1 (
+  set synthesis_subdirectory="Board\libero"
+)
 set concat_directory="%design_directory:"=%\Board\concat"
 
 ::------------------------------------------------------------------------------
@@ -143,33 +148,37 @@ set SCRATCH_DIR=%scratch_directory:"=%
 set CONCAT_DIR=%concat_directory:"=%
 set ISE_BASE_DIR=%design_directory:"=%\%synthesis_subdirectory:"=%
 set ISE_WORK_DIR=%scratch_directory:"=%\%DESIGN_NAME:"=%\%synthesis_subdirectory:"=%
+set LIBERO_BASE_DIR=%design_directory:"=%\%synthesis_subdirectory:"=%
+set LIBERO_WORK_DIR=%scratch_directory:"=%\%DESIGN_NAME:"=%\%synthesis_subdirectory:"=%
 
 ::------------------------------------------------------------------------------
 :: Display info
 ::
 if !VERBOSE! == 1 (
   echo "Program Parameters"
-  echo "%INDENT:"=%DESIGN_NAME    is %DESIGN_NAME:"=%"
-  echo "%INDENT:"=%HEI_LIBS_DIR   is %HEI_LIBS_DIR:"=%"
-  echo "%INDENT:"=%HDS_LIBS       is %HDS_LIBS:"=%"
-  echo "%INDENT:"=%SIMULATION_DIR is %SIMULATION_DIR:"=%"
-  echo "%INDENT:"=%HDS_USER_HOME  is %HDS_USER_HOME:"=%"
-  echo "%INDENT:"=%HDS_TEAM_HOME  is %HDS_TEAM_HOME:"=%"
-  echo "%INDENT:"=%CONCAT_DIR     is %CONCAT_DIR:"=%"
-  echo "%INDENT:"=%SCRATCH_DIR    is %SCRATCH_DIR:"=%"
-  echo "%INDENT:"=%ISE_BASE_DIR   is %ISE_BASE_DIR:"=%"
-  echo "%INDENT:"=%ISE_WORK_DIR   is %ISE_WORK_DIR:"=%"
+  echo "%INDENT:"=%DESIGN_NAME     is %DESIGN_NAME:"=%"
+  echo "%INDENT:"=%HEI_LIBS_DIR    is %HEI_LIBS_DIR:"=%"
+  echo "%INDENT:"=%HDS_LIBS        is %HDS_LIBS:"=%"
+  echo "%INDENT:"=%SIMULATION_DIR  is %SIMULATION_DIR:"=%"
+  echo "%INDENT:"=%HDS_USER_HOME   is %HDS_USER_HOME:"=%"
+  echo "%INDENT:"=%HDS_TEAM_HOME   is %HDS_TEAM_HOME:"=%"
+  echo "%INDENT:"=%SCRATCH_DIR     is %SCRATCH_DIR:"=%"
+  echo "%INDENT:"=%CONCAT_DIR      is %CONCAT_DIR:"=%"
   if %REQUIRE_HDS% == 1 (
-    echo "%INDENT:"=%HDS_HOME       is %HDS_HOME:"=%"
+    echo "%INDENT:"=%HDS_HOME        is %HDS_HOME:"=%"
   )
   if %REQUIRE_MODELSIM% == 1 (
-    echo "%INDENT:"=%MODELSIM_HOME  is %MODELSIM_HOME:"=%"
+    echo "%INDENT:"=%MODELSIM_HOME   is %MODELSIM_HOME:"=%"
   )
   if %REQUIRE_ISE% == 1 (
-    echo "%INDENT:"=%ISE_HOME       is %ISE_HOME:"=%"
+    echo "%INDENT:"=%ISE_HOME        is %ISE_HOME:"=%"
+    echo "%INDENT:"=%ISE_BASE_DIR    is %ISE_BASE_DIR:"=%"
+    echo "%INDENT:"=%ISE_WORK_DIR    is %ISE_WORK_DIR:"=%"
   )
   if %REQUIRE_LIBERO% == 1 (
-    echo "%INDENT:"=%LIBERO_HOME    is %LIBERO_HOME:"=%"
+    echo "%INDENT:"=%LIBERO_HOME     is %LIBERO_HOME:"=%"
+    echo "%INDENT:"=%LIBERO_BASE_DIR is %LIBERO_BASE_DIR:"=%"
+    echo "%INDENT:"=%LIBERO_WORK_DIR is %LIBERO_WORK_DIR:"=%"
   )
   echo.
 )
