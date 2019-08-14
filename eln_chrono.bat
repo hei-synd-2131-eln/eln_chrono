@@ -62,9 +62,9 @@ if %VERBOSE% == 1 (
 :: Launch application
 ::
 if %VERBOSE% == 1 (
-  set command=%hdl_script_name% -v -n %design_name% -d "%design_directory%"
+  set command=%hdl_script_name% -v -n %design_name% -d %design_directory%
 ) else (
-  set command=%hdl_script_name% -n %design_name% -d "%design_directory%"
+  set command=%hdl_script_name% -n %design_name% -d %design_directory%
 )
 echo "Launch HDL Designer Script"
 echo "%INDENT:"=%%command:"=%"
