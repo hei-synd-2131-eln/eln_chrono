@@ -191,14 +191,28 @@ call "./cleanScratch.bat"
 ::------------------------------------------------------------------------------
 :: Copy synthesis data to scratch directory
 ::
-if exist %ISE_BASE_DIR% (
-  echo "%ISE_BASE_DIR:"=%"
-  echo "  -> %ISE_WORK_DIR:"=%"
-  if exist %ISE_WORK_DIR% (
-    rmdir /S /Q "%ISE_WORK_DIR%"
+if %REQUIRE_ISE% == 1 (
+  if exist %ISE_BASE_DIR% (
+    echo "%ISE_BASE_DIR:"=%"
+    echo "  -> %ISE_WORK_DIR:"=%"
+    if exist %ISE_WORK_DIR% (
+      rmdir /S /Q "%ISE_WORK_DIR%"
+    )
+    mkdir "%ISE_WORK_DIR%"
+    xcopy /Y "%ISE_BASE_DIR%" "%ISE_WORK_DIR%\"
   )
-  mkdir "%ISE_WORK_DIR%"
-  xcopy /Y "%ISE_BASE_DIR%" "%ISE_WORK_DIR%\"
+)
+
+if %REQUIRE_LIBERO% == 1 (
+  if exist %LIBERO_BASE_DIR% (
+    echo "%LIBERO_BASE_DIR:"=%"
+    echo "  -> %LIBERO_BASE_DIR:"=%"
+    if exist %LIBERO_WORK_DIR% (
+      rmdir /S /Q "%LIBERO_WORK_DIR%"
+    )
+    mkdir "%LIBERO_WORK_DIR%"
+    xcopy /S /Y "%LIBERO_BASE_DIR%" "%LIBERO_WORK_DIR%\"
+  )
 )
 
 ::------------------------------------------------------------------------------
@@ -207,11 +221,9 @@ if exist %ISE_BASE_DIR% (
 echo "%SEPARATOR:"=%"
 echo "-- Launching program"
 echo "%INDENT:"=%Waiting until programs finished..."
-echo "%INDENT:"=%WARNING: DO NOT CLOSE THIS WINDOW!"
+echo "-- Finished... YOU CAN CLOSE THIS WINDOW NOW!"
 ::start /wait !HDS_HOME:"=!\bin\hdldesigner.exe
 %windir%\system32\cmd.exe /c start /wait !HDS_HOME!\bin\hdldesigner.exe
-echo "%SEPARATOR:"=%"
-echo "-- Finished... YOU CAN CLOSE THIS WINDOW NOW!"
 echo "%SEPARATOR:"=%"
 
 :end
