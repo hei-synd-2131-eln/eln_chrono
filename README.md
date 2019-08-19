@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./img/ELN_chrono.png" alt="ELN Chrono Logo" width="200" height="200">
+  <img src="./img/ELN_chrono.gif" alt="ELN Chrono Logo" width="200" height="200">
   <br>
   ELN Project Chronometer
   <br>
