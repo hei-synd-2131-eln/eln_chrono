@@ -34,6 +34,8 @@ if "%SCRATCH_DIR%" == "" (
 ) else (
   set scratch_directory=%SCRATCH_DIR%
 )
+
+set synthesis_subdirectory=""
 if %REQUIRE_ISE% == 1 (
   set synthesis_subdirectory="Board\ise"
 )
