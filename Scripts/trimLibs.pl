@@ -12,6 +12,9 @@
 #    gal: [Laurent Gauch]
 # ------------------------------------------------------------------------------
 # Changelog:
+#   2019.08.23 : cof
+#     * Comment "omment "FOR xxxx : yyy USE ENTITY zzz;"" instead all "For All ... work" lines
+#     * Seen problems in ELN_Kart
 #   2019.06.11 : zas
 #     * Comment "For All .... work."" instead all "For All" lines
 #     * Allow Outputfilename as Env var or as Script parameter
@@ -118,8 +121,8 @@ while (chop($line = <HDLFile>)) {
     }
   }
 
-  # Comment "FOR ALL : yyy USE ENTITY xxx.yyy;
-  if ($testline =~ m/for\s+all/i) {
+  # Comment "FOR xxxx : yyy USE ENTITY zzz;
+  if ($line =~ m/for\s+.+:.+\s+use\s+entity/i) {
     $line = '-- ' . $line;
   }
 
