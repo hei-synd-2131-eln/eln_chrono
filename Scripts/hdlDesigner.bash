@@ -42,8 +42,8 @@ while getopts $command_switches options; do
   esac
 done
                                                    # finish with other parameters
-library_matchings='hds.hdp'
 library_matchings="$design_name.hdp"
+library_matchings='hds.hdp'
 simulation_directory="$design_directory/Simulation"
 user_prefs_directory="$prefs_directory/hds_user-linux"
 team_prefs_directory="$prefs_directory/hds_team"
