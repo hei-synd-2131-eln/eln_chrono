@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -63,7 +64,7 @@ libraryRefs [
 ]
 )
 version "31.1"
-appVersion "2015.2 (Build 5)"
+appVersion "2018.1 (Build 12)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -74,23 +75,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hdl"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds/@f@i@f@o/struct.bd.info"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/@f@i@f@o/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds/@f@i@f@o/struct.bd.user"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/@f@i@f@o/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds"
 )
 (vvPair
 variable "appl"
@@ -102,7 +103,7 @@ value "struct"
 )
 (vvPair
 variable "concat_file"
-value "concat"
+value "concatenated"
 )
 (vvPair
 variable "config"
@@ -110,27 +111,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds/@f@i@f@o"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/@f@i@f@o"
 )
 (vvPair
 variable "d_logical"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds/FIFO"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/FIFO"
 )
 (vvPair
 variable "date"
-value "06/05/18"
+value "08/28/19"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "05"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -162,7 +163,7 @@ value "francois"
 )
 (vvPair
 variable "graphical_source_date"
-value "06/05/18"
+value "08/28/19"
 )
 (vvPair
 variable "graphical_source_group"
@@ -170,11 +171,11 @@ value "francois"
 )
 (vvPair
 variable "graphical_source_host"
-value "Athena"
+value "Aphelia"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:47:18"
+value "13:45:16"
 )
 (vvPair
 variable "group"
@@ -182,7 +183,7 @@ value "francois"
 )
 (vvPair
 variable "host"
-value "Athena"
+value "Aphelia"
 )
 (vvPair
 variable "language"
@@ -194,11 +195,11 @@ value "Memory"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/$DESIGN_NAME/Memory"
+value "$SCRATCH_DIR/Libs/Memory/work"
 )
 (vvPair
 variable "mm"
-value "06"
+value "08"
 )
 (vvPair
 variable "module_name"
@@ -206,19 +207,19 @@ value "FIFO"
 )
 (vvPair
 variable "month"
-value "Jun"
+value "Aug"
 )
 (vvPair
 variable "month_long"
-value "June"
+value "August"
 )
 (vvPair
 variable "p"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds/@f@i@f@o/struct.bd"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/@f@i@f@o/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/francois/Documents/HEVs/SVN/ElN_board/Prefs/../../ElN_libs/Memory/hds/FIFO/struct.bd"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/FIFO/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -226,7 +227,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "elnBoardTester"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -290,7 +291,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:47:18"
+value "13:45:16"
 )
 (vvPair
 variable "unit"
@@ -302,7 +303,7 @@ value "francois"
 )
 (vvPair
 variable "version"
-value "2015.2 (Build 5)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -310,15 +311,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2018"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "18"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 148,0
 optionalChildren [
 *1 (PortIoIn
@@ -1220,7 +1221,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,65000,74000,66000"
+xt "57200,65000,73400,66000"
 st "
 by %user on %dd %month %year
 "
@@ -2002,8 +2003,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "53000,56000,73000,56900"
-st "dataBitNb = dataBitNb    ( positive )  
-"
+st "dataBitNb = dataBitNb    ( positive )  "
 )
 header ""
 )
@@ -2889,7 +2889,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 539,0
+lastUid 566,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

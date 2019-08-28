@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -90,8 +91,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "31.1"
+appVersion "2018.1 (Build 12)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -102,23 +103,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hdl"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds\\flash_tb\\struct.bd.info"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds/flash_tb/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds\\flash_tb\\struct.bd.user"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds/flash_tb/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds"
 )
 (vvPair
 variable "appl"
@@ -130,7 +131,7 @@ value "struct"
 )
 (vvPair
 variable "concat_file"
-value "boardTester"
+value "concatenated"
 )
 (vvPair
 variable "config"
@@ -138,27 +139,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds\\flash_tb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds/flash_tb"
 )
 (vvPair
 variable "d_logical"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds\\flash_tb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds/flash_tb"
 )
 (vvPair
 variable "date"
-value "20.12.2010"
+value "08/28/19"
 )
 (vvPair
 variable "day"
-value "lun."
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "20"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -181,12 +182,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "francois"
+)
+(vvPair
+variable "graphical_source_date"
+value "08/28/19"
+)
+(vvPair
+variable "graphical_source_group"
+value "francois"
+)
+(vvPair
+variable "graphical_source_host"
+value "Aphelia"
+)
+(vvPair
+variable "graphical_source_time"
+value "13:45:28"
+)
+(vvPair
 variable "group"
-value "UNKNOWN"
+value "francois"
 )
 (vvPair
 variable "host"
-value "WE3195"
+value "Aphelia"
 )
 (vvPair
 variable "language"
@@ -194,7 +215,7 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "memory_test"
+value "Memory_test"
 )
 (vvPair
 variable "library_downstream_ModelSim"
@@ -202,11 +223,11 @@ value "D:\\Users\\ELN_labs\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "D:/Labs/ElN/Board/Memory_test/work"
+value "$SCRATCH_DIR/Libs/Memory_test/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "08"
 )
 (vvPair
 variable "module_name"
@@ -214,19 +235,19 @@ value "flash_tb"
 )
 (vvPair
 variable "month"
-value "déc."
+value "Aug"
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "August"
 )
 (vvPair
 variable "p"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds\\flash_tb\\struct.bd"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds/flash_tb/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "U:\\ELN_board\\Prefs\\..\\Memory_test\\hds\\flash_tb\\struct.bd"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory_test/hds/flash_tb/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -286,7 +307,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:05:42"
+value "13:45:28"
 )
 (vvPair
 variable "unit"
@@ -294,11 +315,11 @@ value "flash_tb"
 )
 (vvPair
 variable "user"
-value "cof"
+value "francois"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -306,15 +327,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2010"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "10"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 198,0
 optionalChildren [
 *1 (Grouping
@@ -338,7 +359,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,77500,82300,78500"
+xt "72200,77500,87800,78500"
 st "
 <enter project name here>
 "
@@ -366,9 +387,9 @@ text (MLText
 uid 1494,0
 va (VaSet
 fg "32768,0,0"
-font "Arial,12,1"
+font "courier,12,1"
 )
-xt "47250,77250,58750,78750"
+xt "47750,77350,58250,78650"
 st "
 <company name>
 "
@@ -399,7 +420,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "45200,83500,53700,84500"
+xt "45200,83500,61400,84500"
 st "
 by %user on %dd %month %year
 "
@@ -429,7 +450,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "66200,77500,69200,78500"
+xt "66200,77500,71000,78500"
 st "
 Project:
 "
@@ -459,7 +480,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "45200,79500,55200,80500"
+xt "45200,79500,61400,80500"
 st "
 <enter diagram title here>
 "
@@ -489,7 +510,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "40200,79500,42300,80500"
+xt "40200,79500,43800,80500"
 st "
 Title:
 "
@@ -519,7 +540,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "40200,81500,42300,82500"
+xt "40200,81500,43200,82500"
 st "
 Path:
 "
@@ -549,7 +570,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "66200,79200,75400,80200"
+xt "66200,79200,79400,80200"
 st "
 <enter comments here>
 "
@@ -578,7 +599,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "45200,81500,55500,82500"
+xt "45200,81500,62000,82500"
 st "
 %library/%unit/%view
 "
@@ -608,7 +629,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "40200,83500,42900,84500"
+xt "40200,83500,44400,84500"
 st "
 Edited:
 "
@@ -654,7 +675,7 @@ textVec [
 *13 (Text
 uid 1777,0
 va (VaSet
-font "Verdana,12,1"
+font "courier,12,1"
 )
 xt "24600,64900,35200,66300"
 st "memory_test"
@@ -664,7 +685,7 @@ tm "BdLibraryNameMgr"
 *14 (Text
 uid 1778,0
 va (VaSet
-font "Verdana,12,1"
+font "courier,12,1"
 )
 xt "24600,66300,34400,67700"
 st "flash_tester"
@@ -674,7 +695,7 @@ tm "BlkNameMgr"
 *15 (Text
 uid 1779,0
 va (VaSet
-font "Verdana,12,1"
+font "courier,12,1"
 )
 xt "24600,67700,27000,69100"
 st "I1"
@@ -691,9 +712,9 @@ uid 1781,0
 text (MLText
 uid 1782,0
 va (VaSet
-font "Courier New,9,0"
+font "courier,9,0"
 )
-xt "24000,69800,48500,72200"
+xt "24000,69800,47000,71600"
 st "addressBitNb = addressBitNb    ( positive )  
 dataBitNb    = dataBitNb       ( positive )  "
 )
@@ -718,16 +739,16 @@ uid 5007,0
 decl (Decl
 n "RP_n"
 t "std_ulogic"
-o 1
+o 6
 suid 47,0
 )
 declText (MLText
 uid 5008,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,14500,800"
+xt "0,0,13500,900"
 st "SIGNAL RP_n   : std_ulogic"
 )
 )
@@ -743,9 +764,9 @@ declText (MLText
 uid 5016,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,14500,800"
+xt "0,0,13500,900"
 st "SIGNAL BYTE_n : std_ulogic"
 )
 )
@@ -754,16 +775,16 @@ uid 5023,0
 decl (Decl
 n "OE_n"
 t "std_ulogic"
-o 3
+o 5
 suid 49,0
 )
 declText (MLText
 uid 5024,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,14500,800"
+xt "0,0,13500,900"
 st "SIGNAL OE_n   : std_ulogic"
 )
 )
@@ -772,16 +793,16 @@ uid 5031,0
 decl (Decl
 n "WE_n"
 t "std_ulogic"
-o 4
+o 8
 suid 50,0
 )
 declText (MLText
 uid 5032,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,14500,800"
+xt "0,0,13500,900"
 st "SIGNAL WE_n   : std_ulogic"
 )
 )
@@ -791,16 +812,16 @@ decl (Decl
 n "CE"
 t "std_ulogic_vector"
 b "(2 DOWNTO 0)"
-o 5
+o 3
 suid 51,0
 )
 declText (MLText
 uid 5040,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,24500,800"
+xt "0,0,23000,900"
 st "SIGNAL CE     : std_ulogic_vector(2 DOWNTO 0)"
 )
 )
@@ -810,16 +831,16 @@ decl (Decl
 n "A"
 t "unsigned"
 b "(addressBitNb-1 DOWNTO 0)"
-o 6
+o 1
 suid 52,0
 )
 declText (MLText
 uid 5048,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,26500,800"
+xt "0,0,25000,900"
 st "SIGNAL A      : unsigned(addressBitNb-1 DOWNTO 0)"
 )
 )
@@ -835,9 +856,9 @@ declText (MLText
 uid 5056,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,14500,800"
+xt "0,0,13500,900"
 st "SIGNAL STS    : std_ulogic"
 )
 )
@@ -847,16 +868,16 @@ decl (Decl
 n "DQ"
 t "std_logic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 8
+o 4
 suid 54,0
 )
 declText (MLText
 uid 5064,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,0,29000,800"
+xt "0,0,27500,900"
 st "SIGNAL DQ     : std_logic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
@@ -1162,7 +1183,7 @@ textVec [
 *33 (Text
 uid 5438,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "45800,49000,51300,50000"
 st "memory_test"
@@ -1172,7 +1193,7 @@ tm "BdLibraryNameMgr"
 *34 (Text
 uid 5439,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "45800,50000,52600,51000"
 st "flash_28F128J3A"
@@ -1182,7 +1203,7 @@ tm "CptNameMgr"
 *35 (Text
 uid 5440,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "45800,51000,46800,52000"
 st "I0"
@@ -1199,9 +1220,9 @@ uid 5442,0
 text (MLText
 uid 5443,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "46000,52600,82000,59800"
+xt "46000,52600,80500,60700"
 st "fileSpec      = \"U:\\ELN_board\\Simulation\\flash.srec\"    ( string )  
 T_W13         = 500 ns                                  ( time   )  
 T_W16_program = 1 us                                    ( time   )  
@@ -1296,11 +1317,11 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5014,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "40250,45600,44250,47000"
+xt "40250,45600,43050,46900"
 st "RP_n"
-blo "40250,46800"
+blo "40250,46600"
 tm "WireNameMgr"
 )
 )
@@ -1334,7 +1355,7 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5022,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "39250,41600,44650,43000"
 st "BYTE_n"
@@ -1372,11 +1393,11 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5030,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "40250,39600,44450,41000"
+xt "40250,39600,43050,40900"
 st "OE_n"
-blo "40250,40800"
+blo "40250,40600"
 tm "WireNameMgr"
 )
 )
@@ -1410,11 +1431,11 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5038,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "39250,37600,43750,39000"
+xt "39250,37600,42050,38900"
 st "WE_n"
-blo "39250,38800"
+blo "39250,38600"
 tm "WireNameMgr"
 )
 )
@@ -1450,11 +1471,11 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5046,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "41250,35600,43750,37000"
+xt "41250,35600,42650,36900"
 st "CE"
-blo "41250,36800"
+blo "41250,36600"
 tm "WireNameMgr"
 )
 )
@@ -1490,11 +1511,11 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5054,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "42250,33600,43850,35000"
+xt "42250,33600,42950,34900"
 st "A"
-blo "42250,34800"
+blo "42250,34600"
 tm "WireNameMgr"
 )
 )
@@ -1528,7 +1549,7 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5062,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "56750,35600,59850,37000"
 st "STS"
@@ -1568,11 +1589,11 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 5070,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "56750,33600,59450,35000"
+xt "56750,33600,58150,34900"
 st "DQ"
-blo "56750,34800"
+blo "56750,34600"
 tm "WireNameMgr"
 )
 )
@@ -1597,7 +1618,7 @@ textVec [
 *45 (Text
 uid 1297,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "-7000,19600,2500,21000"
 st "Package List"
@@ -1607,7 +1628,7 @@ blo "-7000,20800"
 uid 1298,0
 va (VaSet
 )
-xt "-7000,21000,4300,24000"
+xt "-7000,21000,11600,24000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -1623,7 +1644,7 @@ textVec [
 uid 191,0
 va (VaSet
 isHidden 1
-font "arial,10,1"
+font "courier,10,1"
 )
 xt "20000,0,31000,1200"
 st "Compiler Directives"
@@ -1633,7 +1654,7 @@ blo "20000,1000"
 uid 192,0
 va (VaSet
 isHidden 1
-font "arial,10,1"
+font "courier,10,1"
 )
 xt "20000,1400,33000,2600"
 st "Pre-module directives:"
@@ -1643,9 +1664,8 @@ blo "20000,2400"
 uid 193,0
 va (VaSet
 isHidden 1
-font "arial,10,0"
 )
-xt "20000,2800,30400,5400"
+xt "20000,2800,32000,4800"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -1654,7 +1674,7 @@ tm "BdCompilerDirectivesTextMgr"
 uid 194,0
 va (VaSet
 isHidden 1
-font "arial,10,1"
+font "courier,10,1"
 )
 xt "20000,5600,33500,6800"
 st "Post-module directives:"
@@ -1664,7 +1684,6 @@ blo "20000,6600"
 uid 195,0
 va (VaSet
 isHidden 1
-font "arial,10,0"
 )
 xt "20000,7000,20000,7000"
 tm "BdCompilerDirectivesTextMgr"
@@ -1673,7 +1692,7 @@ tm "BdCompilerDirectivesTextMgr"
 uid 196,0
 va (VaSet
 isHidden 1
-font "arial,10,1"
+font "courier,10,1"
 )
 xt "20000,7200,33200,8400"
 st "End-module directives:"
@@ -1683,7 +1702,6 @@ blo "20000,8200"
 uid 197,0
 va (VaSet
 isHidden 1
-font "arial,10,0"
 )
 xt "20000,1200,20000,1200"
 tm "BdCompilerDirectivesTextMgr"
@@ -1700,11 +1718,9 @@ fileName "\\\\EIV\\a309_hplj4050.electro.eiv"
 toPrinter 1
 xMargin 48
 yMargin 48
-paperWidth 761
-paperHeight 1077
 windowsPaperWidth 761
 windowsPaperHeight 1077
-paperType "A4"
+paperType "Letter (8.5\" x 11\")"
 windowsPaperName "A4"
 scale 75
 titlesVisible 0
@@ -1715,7 +1731,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 5443,0
+lastUid 5521,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1730,7 +1746,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,2000,1200"
+xt "200,200,2600,1200"
 st "
 Text
 "
@@ -1738,6 +1754,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "courier,8,0"
+)
+xt "450,2150,1450,3050"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -1778,7 +1822,7 @@ stg "VerticalLayoutStrategy"
 textVec [
 *54 (Text
 va (VaSet
-font "Verdana,12,1"
+font "courier,12,1"
 )
 xt "1500,2550,7900,3950"
 st "<library>"
@@ -1787,7 +1831,7 @@ tm "BdLibraryNameMgr"
 )
 *55 (Text
 va (VaSet
-font "Verdana,12,1"
+font "courier,12,1"
 )
 xt "1500,3950,7000,5350"
 st "<block>"
@@ -1796,7 +1840,7 @@ tm "BlkNameMgr"
 )
 *56 (Text
 va (VaSet
-font "Verdana,12,1"
+font "courier,12,1"
 )
 xt "1500,5350,3000,6750"
 st "I0"
@@ -1811,7 +1855,7 @@ matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "Courier New,9,0"
+font "courier,9,0"
 )
 xt "1500,12550,1500,12550"
 )
@@ -1865,7 +1909,7 @@ matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "Courier New,9,0"
+font "courier,9,0"
 )
 xt "-7100,1000,-7100,1000"
 )
@@ -1928,7 +1972,7 @@ matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "Courier New,9,0"
+font "courier,9,0"
 )
 xt "-7350,550,-7350,550"
 )
@@ -1983,7 +2027,7 @@ matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "Courier New,9,0"
+font "courier,9,0"
 )
 xt "-7850,550,-7850,550"
 )
@@ -2040,7 +2084,7 @@ matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "Courier New,9,0"
+font "courier,9,0"
 )
 xt "-8600,550,-8600,550"
 )
@@ -2098,9 +2142,9 @@ xt "0,0,18000,5000"
 )
 text (MLText
 va (VaSet
-font "Courier New,9,0"
+font "courier,9,0"
 )
-xt "200,200,2700,1400"
+xt "200,200,2200,1100"
 st "
 Text
 "
@@ -2345,7 +2389,7 @@ ps "ConnStartEndStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "0,0,2600,1400"
 st "sig0"
@@ -2379,7 +2423,7 @@ ps "ConnStartEndStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "0,0,3900,1400"
 st "dbus0"
@@ -2410,7 +2454,7 @@ ps "ConnStartEndStrategy"
 stg "VerticalLayoutStrategy"
 first (Text
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "0,0,5100,1400"
 st "bundle0"
@@ -2419,9 +2463,9 @@ tm "BundleNameMgr"
 )
 second (MLText
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "0,1400,1800,2800"
+xt "0,1400,1400,2700"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -2444,16 +2488,16 @@ ps "BottomRightOffsetStrategy"
 stg "VerticalLayoutStrategy"
 first (MLText
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "0,0,5900,1400"
+xt "0,0,6300,1300"
 st "Auto list"
 )
 second (MLText
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
-xt "0,1400,11800,2800"
+xt "0,1400,12600,2700"
 st "User defined list"
 tm "PortMapTextMgr"
 )
@@ -2475,7 +2519,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,12600,-400"
+xt "0,-1400,17400,-400"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -2504,7 +2548,7 @@ stg "VerticalLayoutStrategy"
 textVec [
 *71 (Text
 va (VaSet
-font "Verdana,9,1"
+font "courier,9,1"
 )
 xt "11800,20000,22600,21200"
 st "Frame Declarations"
@@ -2535,7 +2579,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,7400,-400"
+xt "0,-1400,10800,-400"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -2564,7 +2608,7 @@ stg "VerticalLayoutStrategy"
 textVec [
 *73 (Text
 va (VaSet
-font "Verdana,9,1"
+font "courier,9,1"
 )
 xt "11800,20000,22600,21200"
 st "Frame Declarations"
@@ -2595,7 +2639,7 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "0,750,2600,2150"
 st "Port"
@@ -2624,7 +2668,7 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "0,750,2600,2150"
 st "Port"
@@ -2643,7 +2687,7 @@ o 0
 defaultDeclText (MLText
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
 )
 archDeclarativeBlock (BdArchDeclBlock
@@ -2652,7 +2696,7 @@ stg "BdArchDeclBlockLS"
 declLabel (Text
 uid 2,0
 va (VaSet
-font "Verdana,10,1"
+font "courier,10,1"
 )
 xt "-7000,25800,1600,27000"
 st "Declarations"
@@ -2662,7 +2706,7 @@ portLabel (Text
 uid 3,0
 va (VaSet
 isHidden 1
-font "Verdana,10,1"
+font "courier,10,1"
 )
 xt "-7000,27000,-2800,28200"
 st "Ports:"
@@ -2671,7 +2715,7 @@ blo "-7000,28000"
 preUserLabel (Text
 uid 4,0
 va (VaSet
-font "Verdana,10,1"
+font "courier,10,1"
 )
 xt "-7000,27000,-1000,28200"
 st "Pre User:"
@@ -2680,9 +2724,8 @@ blo "-7000,28000"
 preUserText (MLText
 uid 5,0
 va (VaSet
-font "Courier New,10,0"
 )
-xt "-5000,28200,19600,30600"
+xt "-5000,28200,18400,30200"
 st "constant addressBitNb: positive := 24;
 constant dataBitNb: positive := 16;"
 tm "BdDeclarativeTextMgr"
@@ -2691,7 +2734,7 @@ diagSignalLabel (Text
 uid 6,0
 va (VaSet
 isHidden 1
-font "Verdana,10,1"
+font "courier,10,1"
 )
 xt "-7000,27000,4000,28200"
 st "Diagram Signals:"
@@ -2701,7 +2744,7 @@ postUserLabel (Text
 uid 7,0
 va (VaSet
 isHidden 1
-font "Verdana,10,1"
+font "courier,10,1"
 )
 xt "-7000,27000,300,28200"
 st "Post User:"
@@ -2711,7 +2754,6 @@ postUserText (MLText
 uid 8,0
 va (VaSet
 isHidden 1
-font "Courier New,10,0"
 )
 xt "-5000,41400,-5000,41400"
 tm "BdDeclarativeTextMgr"
@@ -2764,7 +2806,7 @@ m 4
 decl (Decl
 n "RP_n"
 t "std_ulogic"
-o 1
+o 6
 suid 47,0
 )
 )
@@ -2788,7 +2830,7 @@ m 4
 decl (Decl
 n "OE_n"
 t "std_ulogic"
-o 3
+o 5
 suid 49,0
 )
 )
@@ -2800,7 +2842,7 @@ m 4
 decl (Decl
 n "WE_n"
 t "std_ulogic"
-o 4
+o 8
 suid 50,0
 )
 )
@@ -2813,7 +2855,7 @@ decl (Decl
 n "CE"
 t "std_ulogic_vector"
 b "(2 DOWNTO 0)"
-o 5
+o 3
 suid 51,0
 )
 )
@@ -2826,7 +2868,7 @@ decl (Decl
 n "A"
 t "unsigned"
 b "(addressBitNb-1 DOWNTO 0)"
-o 6
+o 1
 suid 52,0
 )
 )
@@ -2851,7 +2893,7 @@ decl (Decl
 n "DQ"
 t "std_logic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 8
+o 4
 suid 54,0
 )
 )
@@ -2869,17 +2911,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 emptyMRCItem *97 (MRCItem
 litem &75
@@ -2961,7 +3003,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 textAngle 90
 )
 uid 3329,0
@@ -3073,17 +3115,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 emptyMRCItem *130 (MRCItem
 litem &117
@@ -3117,7 +3159,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 textAngle 90
 )
 uid 3357,0

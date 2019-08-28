@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -21,8 +22,8 @@ libraryRefs [
 "gates"
 ]
 )
-version "24.1"
-appVersion "2007.1a (Build 13)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -111,17 +112,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 emptyMRCItem *18 (MRCItem
 litem &1
@@ -173,7 +174,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 textAngle 90
 )
 uid 92,0
@@ -301,17 +302,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 emptyMRCItem *48 (MRCItem
 litem &33
@@ -357,7 +358,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 textAngle 90
 )
 uid 122,0
@@ -422,23 +423,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hdl"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds\\reg@latch\\symbol.sb.info"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds/reg@latch/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds\\reg@latch\\symbol.sb.user"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds/reg@latch/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds"
 )
 (vvPair
 variable "appl"
@@ -454,31 +455,31 @@ value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds\\reg@latch"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds/reg@latch"
 )
 (vvPair
 variable "d_logical"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds\\regLatch"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds/regLatch"
 )
 (vvPair
 variable "date"
-value "17.11.2016"
+value "08/28/19"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "17"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -501,12 +502,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "francois"
+)
+(vvPair
+variable "graphical_source_date"
+value "08/28/19"
+)
+(vvPair
+variable "graphical_source_group"
+value "francois"
+)
+(vvPair
+variable "graphical_source_host"
+value "Aphelia"
+)
+(vvPair
+variable "graphical_source_time"
+value "13:46:18"
+)
+(vvPair
 variable "group"
-value "UNKNOWN"
+value "francois"
 )
 (vvPair
 variable "host"
-value "WE5370"
+value "Aphelia"
 )
 (vvPair
 variable "language"
@@ -518,11 +539,11 @@ value "sequential"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/ElN/Libraries/Sequential/work"
+value "$SCRATCH_DIR/Libraries/sequential/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "08"
 )
 (vvPair
 variable "module_name"
@@ -530,19 +551,19 @@ value "regLatch"
 )
 (vvPair
 variable "month"
-value "nov."
+value "Aug"
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "August"
 )
 (vvPair
 variable "p"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds\\reg@latch\\symbol.sb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds/reg@latch/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_labs\\..\\..\\libs\\Sequential\\hds\\regLatch\\symbol.sb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Sequential/hds/regLatch/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -550,7 +571,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ElN"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -598,7 +619,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:47:37"
+value "13:46:18"
 )
 (vvPair
 variable "unit"
@@ -606,11 +627,11 @@ value "regLatch"
 )
 (vvPair
 variable "user"
-value "oliver.gubler"
+value "francois"
 )
 (vvPair
 variable "version"
-value "2007.1a (Build 13)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -618,15 +639,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2016"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "16"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 29,0
 optionalChildren [
 *61 (SymbolBody
@@ -650,7 +671,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 65,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "38000,1000,44000,2400"
 st "dataOut"
@@ -661,9 +682,8 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 66,0
 va (VaSet
-font "Courier New,10,0"
 )
-xt "2000,11800,30200,13000"
+xt "2000,11400,28400,12400"
 st "dataOut : OUT    signed (nbBits-1 DOWNTO 0)"
 )
 thePort (LogicalPort
@@ -696,7 +716,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 71,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "35000,3300,38500,4700"
 st "load"
@@ -707,9 +727,8 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 72,0
 va (VaSet
-font "Courier New,10,0"
 )
-xt "2000,10600,21800,11800"
+xt "2000,10400,20600,11400"
 st "load    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -739,7 +758,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 81,0
 va (VaSet
-font "Verdana,12,0"
+font "courier,12,0"
 )
 xt "38000,5600,43000,7000"
 st "dataIn"
@@ -750,9 +769,8 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 82,0
 va (VaSet
-font "Courier New,10,0"
 )
-xt "2000,9400,31400,10600"
+xt "2000,9400,29600,10400"
 st "dataIn  : IN     signed (nbBits-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -783,17 +801,17 @@ first (Text
 uid 11,0
 va (VaSet
 )
-xt "34910,7700,41510,8900"
+xt "34910,7700,41510,8700"
 st "sequential"
-blo "34910,8700"
+blo "34910,8500"
 )
 second (Text
 uid 12,0
 va (VaSet
 )
-xt "34910,8900,40010,10100"
+xt "34910,8700,39710,9700"
 st "regLatch"
-blo "34910,9900"
+blo "34910,9500"
 )
 )
 gi *65 (GenericInterface
@@ -805,12 +823,11 @@ text (MLText
 uid 15,0
 va (VaSet
 )
-xt "35000,12200,49800,17000"
+xt "35000,12200,51800,16200"
 st "Generic Declarations
 
 delay  time     gateDelay  
-nbBits positive 4          
-"
+nbBits positive 4          "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -856,7 +873,7 @@ textVec [
 *67 (Text
 uid 149,0
 va (VaSet
-font "Arial,12,1"
+font "courier,12,1"
 )
 xt "0,-2500,8800,-1000"
 st "Package List"
@@ -865,15 +882,14 @@ blo "0,-1300"
 *68 (MLText
 uid 150,0
 va (VaSet
-font "Arial,12,0"
+font "courier,12,0"
 )
-xt "0,-1000,18600,6500"
+xt "0,-1000,21700,5500"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY gates;
-  USE gates.gates.ALL;
-"
+  USE gates.gates.ALL;"
 tm "PackageList"
 )
 ]
@@ -896,7 +912,7 @@ text (MLText
 va (VaSet
 fg "65535,0,0"
 )
-xt "200,200,3200,1400"
+xt "200,200,2600,1200"
 st "
 Text
 "
@@ -904,6 +920,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4000
 visibleWidth 14000
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "courier,8,0"
+)
+xt "450,2150,1450,3050"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -920,7 +964,7 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (Text
 va (VaSet
-font "arial,10,1"
+font "courier,10,1"
 )
 xt "1000,1000,5000,2200"
 st "Panel0"
@@ -994,33 +1038,24 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
+font "courier,8,0"
 )
-xt "0,750,1400,1750"
+xt "0,750,1500,1650"
 st "In0"
-blo "0,1550"
+blo "0,1450"
 tm "CptPortNameMgr"
-)
-s (Text
-va (VaSet
-isHidden 1
-)
-xt "0,1750,0,1750"
-blo "0,1750"
-tm "CptPortTypeMgr"
 )
 )
 dt (MLText
-uid 36,0
 va (VaSet
-font "Courier New,10,0"
+font "courier,8,0"
 )
-xt "0,2150,14400,3350"
-st "unsigned(15 DOWNTO 0)"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1041,34 +1076,25 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
+font "courier,8,0"
 )
-xt "0,750,2800,1750"
+xt "0,750,3500,1650"
 st "Buffer0"
-blo "0,1550"
+blo "0,1450"
 tm "CptPortNameMgr"
-)
-s (Text
-va (VaSet
-isHidden 1
-)
-xt "0,1750,0,1750"
-blo "0,1750"
-tm "CptPortTypeMgr"
 )
 )
 dt (MLText
-uid 37,0
 va (VaSet
-font "Courier New,10,0"
+font "courier,8,0"
 )
-xt "0,2150,14400,3350"
-st "unsigned(15 DOWNTO 0)"
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1080,7 +1106,7 @@ stg "SymDeclLayoutStrategy"
 declLabel (Text
 uid 2,0
 va (VaSet
-font "Arial,10,1"
+font "courier,10,1"
 )
 xt "0,7000,7400,8200"
 st "Declarations"
@@ -1089,7 +1115,7 @@ blo "0,8000"
 portLabel (Text
 uid 2,0
 va (VaSet
-font "Arial,10,1"
+font "courier,10,1"
 )
 xt "0,8200,3500,9400"
 st "Ports:"
@@ -1098,17 +1124,17 @@ blo "0,9200"
 externalLabel (Text
 uid 2,0
 va (VaSet
-font "Arial,10,1"
+font "courier,10,1"
 )
-xt "0,13000,3200,14200"
+xt "0,12400,3000,13400"
 st "User:"
-blo "0,14000"
+blo "0,13200"
 )
 internalLabel (Text
 uid 2,0
 va (VaSet
 isHidden 1
-font "Arial,10,1"
+font "courier,10,1"
 )
 xt "0,15100,7800,16300"
 st "Internal User:"
@@ -1117,20 +1143,20 @@ blo "0,16100"
 externalText (MLText
 uid 3,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "2000,14200,2000,14200"
+xt "2000,13400,2000,13400"
 tm "SyDeclarativeTextMgr"
 )
 internalText (MLText
 uid 4,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
 xt "2000,16800,2000,16800"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 159,0
+lastUid 182,0
 )

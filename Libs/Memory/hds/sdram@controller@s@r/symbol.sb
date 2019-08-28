@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -15,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2007.1a (Build 13)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -127,17 +128,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 emptyMRCItem *20 (MRCItem
 litem &1
@@ -201,7 +202,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 textAngle 90
 )
 uid 107,0
@@ -315,17 +316,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 )
 emptyMRCItem *50 (MRCItem
 litem &37
@@ -359,7 +360,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "Tahoma,10,0"
+font "courier,10,0"
 textAngle 90
 )
 uid 135,0
@@ -424,23 +425,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hdl"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds\\sdram@controller@s@r\\symbol.sb.info"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/sdram@controller@s@r/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds\\sdram@controller@s@r\\symbol.sb.user"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/sdram@controller@s@r/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds"
 )
 (vvPair
 variable "appl"
@@ -452,7 +453,7 @@ value "symbol"
 )
 (vvPair
 variable "concat_file"
-value "boardTester"
+value "concatenated"
 )
 (vvPair
 variable "config"
@@ -460,27 +461,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds\\sdram@controller@s@r"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/sdram@controller@s@r"
 )
 (vvPair
 variable "d_logical"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds\\sdramControllerSR"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/sdramControllerSR"
 )
 (vvPair
 variable "date"
-value "19.02.2010"
+value "08/28/19"
 )
 (vvPair
 variable "day"
-value "ven."
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "19"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -503,12 +504,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "francois"
+)
+(vvPair
+variable "graphical_source_date"
+value "08/28/19"
+)
+(vvPair
+variable "graphical_source_group"
+value "francois"
+)
+(vvPair
+variable "graphical_source_host"
+value "Aphelia"
+)
+(vvPair
+variable "graphical_source_time"
+value "13:45:13"
+)
+(vvPair
 variable "group"
-value "UNKNOWN"
+value "francois"
 )
 (vvPair
 variable "host"
-value "WE3195"
+value "Aphelia"
 )
 (vvPair
 variable "language"
@@ -516,15 +537,15 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "memory"
+value "Memory"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "D:/Labs/ElN/Board/Memory/work"
+value "$SCRATCH_DIR/Libs/Memory/work"
 )
 (vvPair
 variable "mm"
-value "02"
+value "08"
 )
 (vvPair
 variable "module_name"
@@ -532,19 +553,19 @@ value "sdramControllerSR"
 )
 (vvPair
 variable "month"
-value "févr."
+value "Aug"
 )
 (vvPair
 variable "month_long"
-value "février"
+value "August"
 )
 (vvPair
 variable "p"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds\\sdram@controller@s@r\\symbol.sb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/sdram@controller@s@r/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "U:\\ELN_board\\Prefs\\..\\Memory\\hds\\sdramControllerSR\\symbol.sb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Memory/hds/sdramControllerSR/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -604,7 +625,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:28:30"
+value "13:45:13"
 )
 (vvPair
 variable "unit"
@@ -612,11 +633,11 @@ value "sdramControllerSR"
 )
 (vvPair
 variable "user"
-value "cof"
+value "francois"
 )
 (vvPair
 variable "version"
-value "2007.1a (Build 13)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -624,15 +645,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2010"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "10"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 86,0
 optionalChildren [
 *61 (SymbolBody
@@ -667,11 +688,10 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 55,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,8000,17500,8800"
-st "clock     : IN     std_ulogic  ;
-"
+xt "0,8000,16500,8900"
+st "clock     : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -711,11 +731,10 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 60,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,10400,17500,11200"
-st "setFlag   : IN     std_ulogic  ;
-"
+xt "0,10700,16500,11600"
+st "setFlag   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -755,11 +774,10 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 65,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,8800,17500,9600"
-st "reset     : IN     std_ulogic  ;
-"
+xt "0,8900,16500,9800"
+st "reset     : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -799,11 +817,10 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 70,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,9600,17500,10400"
-st "resetFlag : IN     std_ulogic  ;
-"
+xt "0,9800,16500,10700"
+st "resetFlag : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -844,11 +861,10 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 75,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,11200,16500,12000"
-st "flag      : OUT    std_ulogic 
-"
+xt "0,11600,15500,12500"
+st "flag      : OUT    std_ulogic "
 )
 thePort (LogicalPort
 m 1
@@ -879,20 +895,20 @@ stg "VerticalLayoutStrategy"
 first (Text
 uid 11,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
-xt "29000,26000,32300,27000"
-st "memory"
-blo "29000,26800"
+xt "29000,26000,32000,26900"
+st "Memory"
+blo "29000,26700"
 )
 second (Text
 uid 12,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
-xt "29000,27000,37000,28000"
+xt "29000,26900,38000,27800"
 st "sdramControllerSR"
-blo "29000,27800"
+blo "29000,27600"
 )
 )
 gi *67 (GenericInterface
@@ -903,9 +919,9 @@ uid 14,0
 text (MLText
 uid 15,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "29000,29200,40500,30000"
+xt "29000,29200,39500,30100"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -945,7 +961,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "34200,48000,42700,49000"
+xt "34200,48000,48600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -976,7 +992,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,44000,54200,45000"
+xt "51200,44000,54800,45000"
 st "
 Project:
 "
@@ -1007,7 +1023,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "34200,46000,44200,47000"
+xt "34200,46000,50400,47000"
 st "
 <enter diagram title here>
 "
@@ -1038,7 +1054,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "30200,46000,32300,47000"
+xt "30200,46000,33800,47000"
 st "
 Title:
 "
@@ -1069,7 +1085,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,45200,60400,46200"
+xt "51200,45200,64400,46200"
 st "
 <enter comments here>
 "
@@ -1099,7 +1115,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "55200,44000,56800,45000"
+xt "55200,44000,57000,45000"
 st "
 %project_name
 "
@@ -1129,7 +1145,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "37150,44500,43850,45500"
+xt "36000,44500,45000,45500"
 st "
 <company name>
 "
@@ -1161,7 +1177,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "30200,47000,32300,48000"
+xt "30200,47000,33200,48000"
 st "
 Path:
 "
@@ -1192,7 +1208,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "30200,48000,32900,49000"
+xt "30200,48000,33800,49000"
 st "
 Edited:
 "
@@ -1223,7 +1239,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "34200,47000,47300,48000"
+xt "34200,47000,49800,48000"
 st "
 %library/%unit/%view
 "
@@ -1268,7 +1284,7 @@ textVec [
 *80 (Text
 uid 49,0
 va (VaSet
-font "arial,8,1"
+font "courier,8,1"
 )
 xt "-2000,0,3400,1000"
 st "Package List"
@@ -1278,7 +1294,7 @@ blo "-2000,800"
 uid 50,0
 va (VaSet
 )
-xt "-2000,1000,9300,4000"
+xt "-2000,1000,16600,4000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -1305,7 +1321,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,2000,1200"
+xt "200,200,2600,1200"
 st "
 Text
 "
@@ -1313,6 +1329,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "courier,8,0"
+)
+xt "450,2150,1450,3050"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -1329,7 +1373,7 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (Text
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "1000,1000,3800,2000"
 st "Panel0"
@@ -1358,7 +1402,7 @@ ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 first (Text
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "22200,15000,25800,16000"
 st "<library>"
@@ -1366,7 +1410,7 @@ blo "22200,15800"
 )
 second (Text
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "22200,16000,24800,17000"
 st "<cell>"
@@ -1378,9 +1422,9 @@ ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,12000,11500,12800"
+xt "0,12000,10500,12900"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1412,19 +1456,21 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
+font "courier,8,0"
 )
-xt "0,750,1400,1750"
+xt "0,750,1500,1650"
 st "In0"
-blo "0,1550"
+blo "0,1450"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -1448,19 +1494,21 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
+font "courier,8,0"
 )
-xt "0,750,2800,1750"
+xt "0,750,3500,1650"
 st "Buffer0"
-blo "0,1550"
+blo "0,1450"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -1476,7 +1524,7 @@ stg "SymDeclLayoutStrategy"
 declLabel (Text
 uid 2,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "-2000,6000,3400,7000"
 st "Declarations"
@@ -1485,7 +1533,7 @@ blo "-2000,6800"
 portLabel (Text
 uid 3,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "-2000,7000,700,8000"
 st "Ports:"
@@ -1494,17 +1542,17 @@ blo "-2000,7800"
 externalLabel (Text
 uid 4,0
 va (VaSet
-font "Arial,8,1"
+font "courier,8,1"
 )
-xt "-2000,12000,400,13000"
+xt "-2000,12500,500,13400"
 st "User:"
-blo "-2000,12800"
+blo "-2000,13200"
 )
 internalLabel (Text
 uid 6,0
 va (VaSet
 isHidden 1
-font "Arial,8,1"
+font "courier,8,1"
 )
 xt "-2000,6000,3800,7000"
 st "Internal User:"
@@ -1513,21 +1561,21 @@ blo "-2000,6800"
 externalText (MLText
 uid 5,0
 va (VaSet
-font "Courier New,8,0"
+font "courier,8,0"
 )
-xt "0,13000,0,13000"
+xt "0,13400,0,13400"
 tm "SyDeclarativeTextMgr"
 )
 internalText (MLText
 uid 7,0
 va (VaSet
 isHidden 1
-font "Courier New,8,0"
+font "courier,8,0"
 )
 xt "-2000,6000,-2000,6000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 165,0
+lastUid 188,0
 activeModelName "Symbol"
 )
