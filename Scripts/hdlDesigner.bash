@@ -89,7 +89,7 @@ echo "${INDENT}Concat directory is $concat_directory"
 # System environment variables
 #
 export HDS_HOME=/usr/opt/HDS
-export MODELSIM_HOME=/usr/opt/Modelsim
+export MODELSIM_HOME=/usr/opt/Modelsim/modeltech/bin/
 export ISE_HOME=/usr/opt/Xilinx/ISE_DS/ISE
 export LC_ALL=C
 export LD_LIBRARY_PATH=/usr/openwin/lib:/usr/lib:/usr/dt/lib:/usr/opt/HDS/ezwave/lib:/usr/opt/HDS/bin
@@ -119,9 +119,12 @@ if [ -n "$verbose" ] ; then
   echo "${INDENT}Simulation directory is $SIMULATION_DIR"
   echo "${INDENT}User prefs directory is $HDS_USER_HOME"
   echo "${INDENT}Team prefs directory is $HDS_TEAM_HOME"
-  echo "${INDENT}Concat directory     is $CONCAT_DIR"
-  echo "${INDENT}ISE base directory   is $ISE_BASE_DIR"
   echo "${INDENT}Scratch directory    is $SCRATCH_DIR"
+  echo "${INDENT}Concat directory     is $CONCAT_DIR"
+  echo "${INDENT}HDS location         is $HDS_HOME"
+  echo "${INDENT}Modelsim location    is $MODELSIM_HOME"
+  echo "${INDENT}ISE location         is $ISE_HOME"
+  echo "${INDENT}ISE base directory   is $ISE_BASE_DIR"
   echo "${INDENT}ISE work directory   is $ISE_WORK_DIR"
 fi
 
