@@ -84,5 +84,4 @@ git push origin master
 > Facebook [@hessovalais](https://www.facebook.com/hessovalais) &nbsp;&middot;&nbsp;
 > Twitter [@hessovalais](https://twitter.com/hessovalais) &nbsp;&middot;&nbsp;
 > LinkedIn [HES-SO Valais-Wallis](https://www.linkedin.com/groups/104343/) &nbsp;&middot;&nbsp;
-> Google+ [HES-SO Valais Wallis](https://plus.google.com/105282401140539059594) &nbsp;&middot;&nbsp;
 > Youtube [HES-SO Valais-Wallis](https://www.youtube.com/user/HESSOVS)
