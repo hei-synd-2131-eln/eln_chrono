@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -15,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -596,23 +597,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hdl"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds\\lcd@demo\\symbol.sb.info"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@demo\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds\\lcd@demo\\symbol.sb.user"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@demo\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds"
 )
 (vvPair
 variable "appl"
@@ -628,31 +629,31 @@ value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds\\lcd@demo"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@demo"
 )
 (vvPair
 variable "d_logical"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds\\lcdDemo"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcdDemo"
 )
 (vvPair
 variable "date"
-value "19.08.2013"
+value "14.10.2019"
 )
 (vvPair
 variable "day"
-value "Mo"
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "Montag"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "19"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -679,12 +680,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "silvan.zahno"
+)
+(vvPair
+variable "graphical_source_date"
+value "14.10.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WE6996"
+)
+(vvPair
+variable "graphical_source_time"
+value "10:35:46"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3877"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -692,7 +713,7 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "Lcd"
+value "LCD"
 )
 (vvPair
 variable "library_downstream_Concatenation"
@@ -704,11 +725,11 @@ value "$HDS_PROJECT_DIR/../libs/SPI/designcheck"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/$DESIGN_NAME/Lcd/work"
+value "$SCRATCH_DIR/Libraries/LCD/work"
 )
 (vvPair
 variable "mm"
-value "08"
+value "10"
 )
 (vvPair
 variable "module_name"
@@ -716,19 +737,19 @@ value "lcdDemo"
 )
 (vvPair
 variable "month"
-value "Aug"
+value "Oct"
 )
 (vvPair
 variable "month_long"
-value "August"
+value "October"
 )
 (vvPair
 variable "p"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds\\lcd@demo\\symbol.sb"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@demo\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "d:\\Workspaces\\Projects\\LCD\\LCD_tester\\..\\Libs\\Lcd\\hds\\lcdDemo\\symbol.sb"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcdDemo\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -800,7 +821,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:33:01"
+value "10:35:46"
 )
 (vvPair
 variable "unit"
@@ -808,11 +829,11 @@ value "lcdDemo"
 )
 (vvPair
 variable "user"
-value "uadmin"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -820,15 +841,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2013"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "13"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 19,0
 optionalChildren [
 *81 (SymbolBody
@@ -853,7 +874,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 79,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "9000,23400,12400,24600"
 st "clock"
@@ -897,7 +917,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 84,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "9000,25400,12300,26600"
 st "reset"
@@ -941,7 +960,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 89,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "21100,15400,23000,16600"
 st "SI"
@@ -987,7 +1005,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 94,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "20200,17400,23000,18600"
 st "SCL"
@@ -1033,7 +1050,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 99,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "20800,19400,23000,20600"
 st "A0"
@@ -1079,7 +1095,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 802,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "9000,11400,13500,12600"
 st "buttons"
@@ -1124,7 +1139,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2139,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "18900,23400,23000,24600"
 st "CS1_n"
@@ -1170,7 +1184,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2144,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "19000,21400,23000,22600"
 st "RST_n"
@@ -1216,7 +1229,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2721,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "20200,11400,23000,12600"
 st "leds"
@@ -1263,7 +1275,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 2754,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "9000,15400,11800,16600"
 st "RxD"
@@ -1307,7 +1318,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2832,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "19300,25400,23000,26600"
 st "debug"
@@ -1356,8 +1366,8 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "8600,27800,10900,29000"
-st "Lcd"
+xt "8600,27800,11100,29000"
+st "LCD"
 blo "8600,28800"
 )
 second (Text
@@ -1444,7 +1454,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "24200,41500,34300,42500"
+xt "24200,41400,39600,42600"
 st "
 <enter project name here>
 "
@@ -1505,7 +1515,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-2800,47500,7100,48500"
+xt "-2800,47400,13000,48600"
 st "
 by %user on %dd %month %year
 "
@@ -1535,7 +1545,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "18200,41500,21200,42500"
+xt "18200,41400,22900,42600"
 st "
 Project:
 "
@@ -1565,7 +1575,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-2800,43500,7200,44500"
+xt "-2800,43400,12400,44600"
 st "
 <enter diagram title here>
 "
@@ -1595,7 +1605,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-7800,43500,-5700,44500"
+xt "-7800,43400,-4400,44600"
 st "
 Title:
 "
@@ -1625,7 +1635,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-7800,45500,-5700,46500"
+xt "-7800,45400,-4400,46600"
 st "
 Path:
 "
@@ -1655,7 +1665,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "18200,43200,27400,44200"
+xt "18200,43200,32300,44400"
 st "
 <enter comments here>
 "
@@ -1684,7 +1694,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-2800,45500,3700,46500"
+xt "-2800,45400,7100,46600"
 st "
 
 %library/%unit/%view
@@ -1716,7 +1726,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-7800,47500,-5100,48500"
+xt "-7800,47400,-3500,48600"
 st "
 Edited:
 "
@@ -1769,7 +1779,6 @@ blo "-30000,1000"
 *107 (MLText
 uid 18,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "-30000,1200,-12500,4800"
 st "LIBRARY ieee;
@@ -1797,7 +1806,6 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "Verdana,9,0"
 )
 xt "200,200,3200,1400"
 st "
@@ -1807,6 +1815,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -1907,11 +1943,11 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
+font "Verdana,12,0"
 )
-xt "0,750,2500,1950"
+xt "0,750,2900,2150"
 st "In0"
-blo "0,1750"
+blo "0,1950"
 tm "CptPortNameMgr"
 )
 )
@@ -1921,9 +1957,10 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "std_logic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1944,11 +1981,11 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
+font "Verdana,12,0"
 )
-xt "0,750,4300,1950"
+xt "0,750,5300,2150"
 st "Buffer0"
-blo "0,1750"
+blo "0,1950"
 tm "CptPortNameMgr"
 )
 )
@@ -1958,10 +1995,11 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "std_logic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -2025,7 +2063,7 @@ xt "-30000,5400,-30000,5400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2925,0
+lastUid 2948,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
