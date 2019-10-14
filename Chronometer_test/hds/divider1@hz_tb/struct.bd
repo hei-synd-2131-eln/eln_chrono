@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -35,8 +36,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "32.1"
+appVersion "2019.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -47,23 +48,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hdl"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb\\struct.bd.info"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb\\struct.bd.user"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -75,35 +76,35 @@ value "struct"
 )
 (vvPair
 variable "concat_file"
-value "chronometer"
+value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tb"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tb"
 )
 (vvPair
 variable "date"
-value "19.11.2013"
+value "14.10.2019"
 )
 (vvPair
 variable "day"
-value "mar."
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "19"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -126,12 +127,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "silvan.zahno"
+)
+(vvPair
+variable "graphical_source_date"
+value "14.10.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WE6996"
+)
+(vvPair
+variable "graphical_source_time"
+value "10:57:28"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -151,7 +172,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Chronometer_test/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "10"
 )
 (vvPair
 variable "module_name"
@@ -159,19 +180,19 @@ value "divider1Hz_tb"
 )
 (vvPair
 variable "month"
-value "nov."
+value "Oct"
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "October"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb\\struct.bd"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tb\\struct.bd"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -243,7 +264,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "16:09:55"
+value "10:57:28"
 )
 (vvPair
 variable "unit"
@@ -251,11 +272,11 @@ value "divider1Hz_tb"
 )
 (vvPair
 variable "user"
-value "francois"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -263,15 +284,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2013"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "13"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 198,0
 optionalChildren [
 *1 (Net
@@ -279,7 +300,7 @@ uid 1315,0
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 7
+o 4
 suid 1,0
 )
 declText (MLText
@@ -289,8 +310,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "-5000,34200,10500,35400"
-st "SIGNAL reset    : std_ulogic
-"
+st "SIGNAL reset    : std_ulogic"
 )
 )
 *2 (Net
@@ -298,7 +318,7 @@ uid 1325,0
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 8
+o 1
 suid 2,0
 )
 declText (MLText
@@ -308,8 +328,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "-5000,28200,10500,29400"
-st "SIGNAL clock    : std_ulogic
-"
+st "SIGNAL clock    : std_ulogic"
 )
 )
 *3 (Grouping
@@ -333,7 +352,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "83200,85500,93300,86500"
+xt "83200,85400,98600,86600"
 st "
 <enter project name here>
 "
@@ -394,7 +413,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "56200,91500,64800,92500"
+xt "56200,91400,74500,92600"
 st "
 by %user on %dd %month %year
 "
@@ -424,7 +443,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "77200,85500,80200,86500"
+xt "77200,85400,81900,86600"
 st "
 Project:
 "
@@ -454,7 +473,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "56200,87500,66200,88500"
+xt "56200,87400,71400,88600"
 st "
 <enter diagram title here>
 "
@@ -484,7 +503,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,87500,53300,88500"
+xt "51200,87400,54600,88600"
 st "
 Title:
 "
@@ -514,7 +533,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,89500,53300,90500"
+xt "51200,89400,54600,90600"
 st "
 Path:
 "
@@ -544,7 +563,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "77200,87200,86400,88200"
+xt "77200,87200,91300,88400"
 st "
 <enter comments here>
 "
@@ -573,7 +592,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "56200,89500,70100,90500"
+xt "56200,89400,75200,90600"
 st "
 %library/%unit/%view
 "
@@ -603,7 +622,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,91500,53900,92500"
+xt "51200,91400,55500,92600"
 st "
 Edited:
 "
@@ -702,7 +721,7 @@ uid 2116,0
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 3
+o 6
 suid 3,0
 )
 declText (MLText
@@ -712,8 +731,7 @@ isHidden 1
 font "Courier New,8,0"
 )
 xt "0,0,15500,800"
-st "SIGNAL testMode : std_uLogic
-"
+st "SIGNAL testMode : std_uLogic"
 )
 )
 *19 (Net
@@ -721,7 +739,7 @@ uid 2132,0
 decl (Decl
 n "enStep"
 t "std_uLogic"
-o 5
+o 3
 suid 4,0
 )
 declText (MLText
@@ -731,8 +749,7 @@ isHidden 1
 font "Courier New,8,0"
 )
 xt "0,0,15500,800"
-st "SIGNAL enStep   : std_uLogic
-"
+st "SIGNAL enStep   : std_uLogic"
 )
 )
 *20 (Net
@@ -740,7 +757,7 @@ uid 2140,0
 decl (Decl
 n "en1Hz"
 t "std_uLogic"
-o 6
+o 2
 suid 5,0
 )
 declText (MLText
@@ -750,8 +767,7 @@ isHidden 1
 font "Courier New,8,0"
 )
 xt "0,0,15500,800"
-st "SIGNAL en1Hz    : std_uLogic
-"
+st "SIGNAL en1Hz    : std_uLogic"
 )
 )
 *21 (SaComponent
@@ -776,7 +792,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 2187,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,49500,49400,50700"
 st "clock"
@@ -810,7 +825,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2191,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "56100,43500,60000,44700"
 st "en1Hz"
@@ -846,7 +860,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 2195,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,51500,49300,52700"
 st "reset"
@@ -880,7 +893,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 2199,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,43300,49100,44500"
 st "start"
@@ -914,7 +926,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 2203,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,47300,51400,48500"
 st "testMode"
@@ -948,7 +959,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2207,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "55800,45500,60000,46700"
 st "enStep"
@@ -1039,7 +1049,7 @@ uid 2217,0
 decl (Decl
 n "start"
 t "std_uLogic"
-o 4
+o 5
 suid 6,0
 )
 declText (MLText
@@ -1049,8 +1059,7 @@ isHidden 1
 font "Courier New,8,0"
 )
 xt "0,0,15500,800"
-st "SIGNAL start    : std_uLogic
-"
+st "SIGNAL start    : std_uLogic"
 )
 )
 *32 (Wire
@@ -1312,7 +1321,7 @@ blo "-7000,20800"
 uid 1298,0
 va (VaSet
 )
-xt "-7000,21000,4300,24000"
+xt "-7000,21000,10500,24600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -1421,7 +1430,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 2333,0
+lastUid 2403,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1436,7 +1445,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,2000,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -1444,6 +1453,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -2181,7 +2218,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,12600,-400"
+xt "0,-1400,18500,-200"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -2241,7 +2278,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,7400,-400"
+xt "0,-1400,11000,-200"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -2390,8 +2427,7 @@ font "Courier New,10,0"
 )
 xt "-5000,28200,22000,30600"
 st "constant clockFrequency: real := 66.0E6;
-constant stepperFrequency: real := 100.0;
-"
+constant stepperFrequency: real := 100.0;"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -2471,7 +2507,7 @@ m 4
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 7
+o 4
 suid 1,0
 )
 )
@@ -2483,7 +2519,7 @@ m 4
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 8
+o 1
 suid 2,0
 )
 )
@@ -2495,7 +2531,7 @@ m 4
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 3
+o 6
 suid 3,0
 )
 )
@@ -2507,7 +2543,7 @@ m 4
 decl (Decl
 n "enStep"
 t "std_uLogic"
-o 5
+o 3
 suid 4,0
 )
 )
@@ -2519,7 +2555,7 @@ m 4
 decl (Decl
 n "en1Hz"
 t "std_uLogic"
-o 6
+o 2
 suid 5,0
 )
 )
@@ -2531,7 +2567,7 @@ m 4
 decl (Decl
 n "start"
 t "std_uLogic"
-o 4
+o 5
 suid 6,0
 )
 )

@@ -15,12 +15,12 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2007.1a (Build 13)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 2012,0
+suid 2024,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -65,33 +65,33 @@ m 1
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 8
-suid 2007,0
+o 1
+suid 2019,0
 )
 )
-uid 212,0
+uid 342,0
 )
 *15 (LogPort
 port (LogicalPort
 decl (Decl
 n "en1Hz"
 t "std_uLogic"
-o 6
-suid 2008,0
+o 2
+suid 2020,0
 )
 )
-uid 214,0
+uid 344,0
 )
 *16 (LogPort
 port (LogicalPort
 decl (Decl
 n "enStep"
 t "std_uLogic"
-o 5
-suid 2009,0
+o 3
+suid 2021,0
 )
 )
-uid 216,0
+uid 346,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -99,11 +99,11 @@ m 1
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 7
-suid 2010,0
+o 4
+suid 2022,0
 )
 )
-uid 218,0
+uid 348,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -111,11 +111,11 @@ m 1
 decl (Decl
 n "start"
 t "std_uLogic"
-o 4
-suid 2011,0
+o 5
+suid 2023,0
 )
 )
-uid 220,0
+uid 350,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -123,11 +123,11 @@ m 1
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 3
-suid 2012,0
+o 6
+suid 2024,0
 )
 )
-uid 222,0
+uid 352,0
 )
 ]
 )
@@ -181,37 +181,37 @@ uid 120,0
 litem &14
 pos 0
 dimension 20
-uid 213,0
+uid 343,0
 )
 *26 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 215,0
+uid 345,0
 )
 *27 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 217,0
+uid 347,0
 )
 *28 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 219,0
+uid 349,0
 )
 *29 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 221,0
+uid 351,0
 )
 *30 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 223,0
+uid 353,0
 )
 ]
 )
@@ -444,23 +444,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hdl"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester\\interface.info"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester\\interface.user"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -472,35 +472,35 @@ value "interface"
 )
 (vvPair
 variable "concat_file"
-value "motorControl"
+value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester"
 )
 (vvPair
 variable "d_logical"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tester"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tester"
 )
 (vvPair
 variable "date"
-value "11.01.2010"
+value "14.10.2019"
 )
 (vvPair
 variable "day"
-value "lun."
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "11"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -523,12 +523,32 @@ variable "f_noext"
 value "interface"
 )
 (vvPair
+variable "graphical_source_author"
+value "silvan.zahno"
+)
+(vvPair
+variable "graphical_source_date"
+value "14.10.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WE6996"
+)
+(vvPair
+variable "graphical_source_time"
+value "10:57:28"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3195"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -544,11 +564,11 @@ value "D:\\Users\\Syslo\\Chronometer\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "D:/Labs/ElN/Chronometer/Chronometer_test/work"
+value "$SCRATCH_DIR/$DESIGN_NAME/Chronometer_test/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "10"
 )
 (vvPair
 variable "module_name"
@@ -556,19 +576,19 @@ value "divider1Hz_tester"
 )
 (vvPair
 variable "month"
-value "janv."
+value "Oct"
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "October"
 )
 (vvPair
 variable "p"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester\\interface"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1@hz_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "U:\\ELN_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tester\\interface"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer_test\\hds\\divider1Hz_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -632,7 +652,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "10:58:54"
+value "10:57:28"
 )
 (vvPair
 variable "unit"
@@ -640,11 +660,11 @@ value "divider1Hz_tester"
 )
 (vvPair
 variable "user"
-value "cof"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2007.1a (Build 13)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -652,11 +672,11 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2010"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "10"
+value "19"
 )
 ]
 )
@@ -667,10 +687,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *64 (CptPort
-uid 182,0
+uid 312,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 183,0
+uid 313,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -678,23 +698,24 @@ fg "0,65535,0"
 xt "28625,5250,29375,6000"
 )
 tg (CPTG
-uid 184,0
+uid 314,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 185,0
+uid 315,0
 ro 270
 va (VaSet
+font "Verdana,12,0"
 )
-xt "28500,7000,29500,9100"
+xt "28300,7000,29700,10800"
 st "clock"
 ju 2
-blo "29300,7000"
+blo "29500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 186,0
+uid 316,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -707,16 +728,16 @@ m 1
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 8
-suid 2007,0
+o 1
+suid 2019,0
 )
 )
 )
 *65 (CptPort
-uid 187,0
+uid 317,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 188,0
+uid 318,0
 ro 180
 va (VaSet
 vasetType 1
@@ -725,23 +746,24 @@ fg "0,65535,0"
 xt "56625,5250,57375,6000"
 )
 tg (CPTG
-uid 189,0
+uid 319,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 190,0
+uid 320,0
 ro 270
 va (VaSet
+font "Verdana,12,0"
 )
-xt "56500,7000,57500,9600"
+xt "56300,7000,57700,11800"
 st "en1Hz"
 ju 2
-blo "57300,7000"
+blo "57500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 191,0
+uid 321,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -753,16 +775,16 @@ thePort (LogicalPort
 decl (Decl
 n "en1Hz"
 t "std_uLogic"
-o 6
-suid 2008,0
+o 2
+suid 2020,0
 )
 )
 )
 *66 (CptPort
-uid 192,0
+uid 322,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 193,0
+uid 323,0
 ro 180
 va (VaSet
 vasetType 1
@@ -771,23 +793,24 @@ fg "0,65535,0"
 xt "54625,5250,55375,6000"
 )
 tg (CPTG
-uid 194,0
+uid 324,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 195,0
+uid 325,0
 ro 270
 va (VaSet
+font "Verdana,12,0"
 )
-xt "54500,7000,55500,9700"
+xt "54300,7000,55700,12300"
 st "enStep"
 ju 2
-blo "55300,7000"
+blo "55500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 196,0
+uid 326,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -799,16 +822,16 @@ thePort (LogicalPort
 decl (Decl
 n "enStep"
 t "std_uLogic"
-o 5
-suid 2009,0
+o 3
+suid 2021,0
 )
 )
 )
 *67 (CptPort
-uid 197,0
+uid 327,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 198,0
+uid 328,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -816,23 +839,24 @@ fg "0,65535,0"
 xt "30625,5250,31375,6000"
 )
 tg (CPTG
-uid 199,0
+uid 329,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 200,0
+uid 330,0
 ro 270
 va (VaSet
+font "Verdana,12,0"
 )
-xt "30500,7000,31500,9100"
+xt "30300,7000,31700,11100"
 st "reset"
 ju 2
-blo "31300,7000"
+blo "31500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 201,0
+uid 331,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -845,16 +869,16 @@ m 1
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 7
-suid 2010,0
+o 4
+suid 2022,0
 )
 )
 )
 *68 (CptPort
-uid 202,0
+uid 332,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 203,0
+uid 333,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -862,23 +886,24 @@ fg "0,65535,0"
 xt "22625,5250,23375,6000"
 )
 tg (CPTG
-uid 204,0
+uid 334,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 205,0
+uid 335,0
 ro 270
 va (VaSet
+font "Verdana,12,0"
 )
-xt "22500,7000,23500,8900"
+xt "22300,7000,23700,10800"
 st "start"
 ju 2
-blo "23300,7000"
+blo "23500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 206,0
+uid 336,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -891,16 +916,16 @@ m 1
 decl (Decl
 n "start"
 t "std_uLogic"
-o 4
-suid 2011,0
+o 5
+suid 2023,0
 )
 )
 )
 *69 (CptPort
-uid 207,0
+uid 337,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 208,0
+uid 338,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -908,23 +933,24 @@ fg "0,65535,0"
 xt "26625,5250,27375,6000"
 )
 tg (CPTG
-uid 209,0
+uid 339,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 210,0
+uid 340,0
 ro 270
 va (VaSet
+font "Verdana,12,0"
 )
-xt "26500,7000,27500,10500"
+xt "26300,7000,27700,13700"
 st "testMode"
 ju 2
-blo "27300,7000"
+blo "27500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 211,0
+uid 341,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -937,8 +963,8 @@ m 1
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 3
-suid 2012,0
+o 6
+suid 2024,0
 )
 )
 )
@@ -1027,7 +1053,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "31200,50000,40700,51000"
+xt "31200,50500,31200,50500"
 st "
 by %user on %dd %month %year
 "
@@ -1057,7 +1083,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "48200,46000,51200,47000"
+xt "48200,46500,48200,46500"
 st "
 Project:
 "
@@ -1087,7 +1113,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "31200,48000,41200,49000"
+xt "31200,48500,31200,48500"
 st "
 <enter diagram title here>
 "
@@ -1117,7 +1143,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,48000,29300,49000"
+xt "27200,48500,27200,48500"
 st "
 Title:
 "
@@ -1147,7 +1173,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "48200,47200,57400,48200"
+xt "48200,47200,62300,48400"
 st "
 <enter comments here>
 "
@@ -1176,7 +1202,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "52200,46000,62300,47000"
+xt "52200,46500,52200,46500"
 st "
 <enter project name here>
 "
@@ -1205,7 +1231,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "34150,46500,40850,47500"
+xt "32350,46400,42650,47600"
 st "
 <company name>
 "
@@ -1236,7 +1262,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,49000,29300,50000"
+xt "27200,49500,27200,49500"
 st "
 Path:
 "
@@ -1266,7 +1292,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,50000,29900,51000"
+xt "27200,50500,27200,50500"
 st "
 Edited:
 "
@@ -1296,7 +1322,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "31200,49000,48000,50000"
+xt "31200,49500,31200,49500"
 st "
 %library/%unit/%view
 "
@@ -1350,7 +1376,7 @@ blo "0,800"
 uid 50,0
 va (VaSet
 )
-xt "0,1000,11300,4000"
+xt "0,1000,17500,4600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -1387,6 +1413,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1411,7 +1465,7 @@ tm "PanelText"
 )
 )
 parentGraphicsRef (HdmGraphicsRef
-libraryName "chronometer_test"
+libraryName "Chronometer_test"
 entityName "divider1Hz_tb"
 viewName "struct.bd"
 )
@@ -1479,7 +1533,6 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,750,1800,1950"
 st "In0"
@@ -1516,7 +1569,6 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,750,3600,1950"
 st "Buffer0"
@@ -1597,5 +1649,5 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 223,0
+lastUid 353,0
 )

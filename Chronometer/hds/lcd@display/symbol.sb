@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -15,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -445,23 +446,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hdl"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display\\symbol.sb.info"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display\\symbol.sb.user"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds"
 )
 (vvPair
 variable "appl"
@@ -477,31 +478,31 @@ value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\lcdDisplay"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\lcdDisplay"
 )
 (vvPair
 variable "date"
-value "05.11.2015"
+value "10.10.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "05"
+value "10"
 )
 (vvPair
 variable "designName"
@@ -528,12 +529,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "silvan.zahno"
+)
+(vvPair
+variable "graphical_source_date"
+value "10.10.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WE6996"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:22:28"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -557,7 +578,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Chronometer/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "10"
 )
 (vvPair
 variable "module_name"
@@ -565,19 +586,19 @@ value "lcdDisplay"
 )
 (vvPair
 variable "month"
-value "nov."
+value "Oct"
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "October"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display\\symbol.sb"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\lcd@display\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\lcdDisplay\\symbol.sb"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\lcdDisplay\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -649,7 +670,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:15:39"
+value "14:22:28"
 )
 (vvPair
 variable "unit"
@@ -657,11 +678,11 @@ value "lcdDisplay"
 )
 (vvPair
 variable "user"
-value "francois"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -669,15 +690,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 19,0
 optionalChildren [
 *63 (SymbolBody
@@ -702,7 +723,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 79,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "9000,23400,12400,24600"
 st "clock"
@@ -746,7 +766,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 84,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "9000,25400,12300,26600"
 st "reset"
@@ -790,7 +809,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 802,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "19900,19400,23000,20600"
 st "ascii"
@@ -837,7 +855,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 1614,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "19900,21400,23000,22600"
 st "send"
@@ -883,7 +900,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 2620,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "19900,23400,23000,24600"
 st "busy"
@@ -1000,7 +1016,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "24200,41500,37000,42500"
+xt "24200,41400,39600,42600"
 st "
 <enter project name here>
 "
@@ -1061,7 +1077,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-2800,47500,10100,48500"
+xt "-2800,47400,13500,48600"
 st "
 by %user on %dd %month %year
 "
@@ -1091,7 +1107,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "18200,41500,21900,42500"
+xt "18200,41400,22900,42600"
 st "
 Project:
 "
@@ -1121,7 +1137,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-2800,43500,9700,44500"
+xt "-2800,43400,12400,44600"
 st "
 <enter diagram title here>
 "
@@ -1151,7 +1167,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-7800,43500,-5200,44500"
+xt "-7800,43400,-4400,44600"
 st "
 Title:
 "
@@ -1181,7 +1197,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-7800,45500,-5100,46500"
+xt "-7800,45400,-4400,46600"
 st "
 Path:
 "
@@ -1211,7 +1227,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "18200,43200,29800,44200"
+xt "18200,43200,32300,44400"
 st "
 <enter comments here>
 "
@@ -1240,7 +1256,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-2800,45500,5900,46500"
+xt "-2800,45400,7100,46600"
 st "
 
 %library/%unit/%view
@@ -1272,7 +1288,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "-7800,47500,-4400,48500"
+xt "-7800,47400,-3500,48600"
 st "
 Edited:
 "
@@ -1325,7 +1341,6 @@ blo "-30000,1000"
 *83 (MLText
 uid 18,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "-30000,1200,-12500,4800"
 st "LIBRARY ieee;
@@ -1353,7 +1368,6 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "Verdana,9,0"
 )
 xt "200,200,3200,1400"
 st "
@@ -1363,6 +1377,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -1463,11 +1505,11 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
+font "Verdana,12,0"
 )
-xt "0,750,2500,1950"
+xt "0,750,2900,2150"
 st "In0"
-blo "0,1750"
+blo "0,1950"
 tm "CptPortNameMgr"
 )
 )
@@ -1477,9 +1519,10 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "std_logic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1500,11 +1543,11 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
+font "Verdana,12,0"
 )
-xt "0,750,4300,1950"
+xt "0,750,5300,2150"
 st "Buffer0"
-blo "0,1750"
+blo "0,1950"
 tm "CptPortNameMgr"
 )
 )
@@ -1514,10 +1557,11 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "std_logic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1581,7 +1625,7 @@ xt "-30000,5400,-30000,5400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2967,0
+lastUid 2990,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

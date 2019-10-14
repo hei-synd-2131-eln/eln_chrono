@@ -1,4 +1,4 @@
-version "48.1"
+version "49.1"
 SaPreferences [
 (CustomizeUserPreferences
 version "1.0"
@@ -1191,8 +1191,8 @@ second "uedit32.exe \"%(p)/%(l)\" /r"
 )
 ]
 defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "UltraEdit"
-win32DefaultViewer "UltraEdit"
+win32DefaultEditor "Notepad++"
+win32DefaultViewer "Notepad++"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
 defaultVerilogDialect 5
@@ -1264,8 +1264,8 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\Cursor_trial\\Prefs\\cursor.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\eln_labs.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
-"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -4327,7 +4327,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x867+1238+103"
+logWindowGeometry "600x200+1304+40"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -5220,22 +5220,18 @@ theList "Design Units"
 columns [
 (TreeListVPData_Column
 name "Type"
-displayName ""
 width 140
 )
 (TreeListVPData_Column
 name "Extends"
-displayName ""
 width 100
 )
 (TreeListVPData_Column
 name "Language"
-displayName ""
 width 100
 )
 (TreeListVPData_Column
 name "Time Stamp"
-displayName ""
 width 120
 )
 ]
@@ -6288,20 +6284,18 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Chronometer_test"
+name "<Empty>"
 showingHierarchy 0
 openLibs [
-"Chronometer_test"
 ]
 declHierarchy [
 ]
 activeViewpointIdx 0
 )
 (WorkTab
-name "Board"
+name "<Empty>"
 showingHierarchy 0
 openLibs [
-"Board"
 ]
 declHierarchy [
 ]
@@ -6329,12 +6323,11 @@ size 180
 )
 ]
 displayHierarchy 0
-xPos 109
-yPos 101
-width 1070
-height 838
+xPos 0
+yPos 0
+width 1936
+height 1056
 activeSidePanelTab 2
-activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569

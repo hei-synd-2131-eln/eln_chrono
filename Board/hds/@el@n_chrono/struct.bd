@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -466,8 +467,8 @@ libraryRefs [
 "gates"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "32.1"
+appVersion "2019.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -478,23 +479,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hdl"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds\\@f@p@g@a_chronometer\\struct.bd.info"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds\\@el@n_chrono\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds\\@f@p@g@a_chronometer\\struct.bd.user"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds\\@el@n_chrono\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -510,31 +511,31 @@ value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds\\@f@p@g@a_chronometer"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds\\@el@n_chrono"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds\\FPGA_chronometer"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds\\ElN_chrono"
 )
 (vvPair
 variable "date"
-value "05.11.2015"
+value "14.10.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "05"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -542,7 +543,7 @@ value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
-value "FPGA_chronometer"
+value "ElN_chrono"
 )
 (vvPair
 variable "ext"
@@ -561,12 +562,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "silvan.zahno"
+)
+(vvPair
+variable "graphical_source_date"
+value "14.10.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WE6996"
+)
+(vvPair
+variable "graphical_source_time"
+value "10:57:41"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -598,27 +619,27 @@ value "U:\\ELN_chrono\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "11"
+value "10"
 )
 (vvPair
 variable "module_name"
-value "FPGA_chronometer"
+value "ElN_chrono"
 )
 (vvPair
 variable "month"
-value "nov."
+value "Oct"
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "October"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds\\@f@p@g@a_chronometer\\struct.bd"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds\\@el@n_chrono\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\ELN_chrono\\Prefs\\..\\Board\\hds\\FPGA_chronometer\\struct.bd"
+value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\..\\Board\\hds\\ElN_chrono\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -690,19 +711,19 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:26:27"
+value "10:57:41"
 )
 (vvPair
 variable "unit"
-value "FPGA_chronometer"
+value "ElN_chrono"
 )
 (vvPair
 variable "user"
-value "francois"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -710,15 +731,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 198,0
 optionalChildren [
 *1 (Net
@@ -726,7 +747,7 @@ uid 1325,0
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 1
+o 2
 suid 1,0
 )
 declText (MLText
@@ -760,7 +781,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "73200,59500,86000,60500"
+xt "73200,59400,88600,60600"
 st "
 <enter project name here>
 "
@@ -821,7 +842,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,65500,59100,66500"
+xt "46200,65400,64500,66600"
 st "
 by %user on %dd %month %year
 "
@@ -851,7 +872,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "67200,59500,70900,60500"
+xt "67200,59400,71900,60600"
 st "
 Project:
 "
@@ -881,7 +902,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,61500,58700,62500"
+xt "46200,61400,61400,62600"
 st "
 <enter diagram title here>
 "
@@ -911,7 +932,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "41200,61500,43800,62500"
+xt "41200,61400,44600,62600"
 st "
 Title:
 "
@@ -941,7 +962,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "41200,63500,43900,64500"
+xt "41200,63400,44600,64600"
 st "
 Path:
 "
@@ -971,7 +992,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "67200,61200,78800,62200"
+xt "67200,61200,81300,62400"
 st "
 <enter comments here>
 "
@@ -1000,7 +1021,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,63500,60700,64500"
+xt "46200,63400,60800,64600"
 st "
 %library/%unit/%view
 "
@@ -1030,7 +1051,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "41200,65500,44600,66500"
+xt "41200,65400,45500,66600"
 st "
 Edited:
 "
@@ -1168,7 +1189,7 @@ uid 1633,0
 decl (Decl
 n "reset_n"
 t "std_ulogic"
-o 2
+o 3
 suid 2,0
 )
 declText (MLText
@@ -1186,7 +1207,7 @@ uid 1635,0
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 21
+o 29
 suid 3,0
 )
 declText (MLText
@@ -1359,7 +1380,7 @@ uid 1669,0
 va (VaSet
 isHidden 1
 )
-xt "2000,66400,13400,67400"
+xt "2000,66400,15400,67600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -1385,7 +1406,7 @@ uid 2135,0
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 7
+o 8
 suid 4,0
 )
 declText (MLText
@@ -1403,7 +1424,7 @@ uid 2143,0
 decl (Decl
 n "stop"
 t "std_uLogic"
-o 31
+o 39
 suid 5,0
 )
 declText (MLText
@@ -1421,7 +1442,7 @@ uid 2151,0
 decl (Decl
 n "start"
 t "std_uLogic"
-o 29
+o 37
 suid 6,0
 )
 declText (MLText
@@ -1439,7 +1460,7 @@ uid 2159,0
 decl (Decl
 n "restart"
 t "std_uLogic"
-o 25
+o 33
 suid 7,0
 )
 declText (MLText
@@ -1879,7 +1900,7 @@ uid 2220,0
 va (VaSet
 isHidden 1
 )
-xt "17000,-14600,28400,-13600"
+xt "17000,-14600,30400,-13400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -1903,7 +1924,7 @@ uid 2260,0
 decl (Decl
 n "restartSynch"
 t "std_uLogic"
-o 26
+o 34
 suid 8,0
 )
 declText (MLText
@@ -2127,7 +2148,7 @@ uid 2270,0
 va (VaSet
 isHidden 1
 )
-xt "17000,-2600,28400,-1600"
+xt "17000,-2600,30400,-1400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -2357,7 +2378,7 @@ uid 2314,0
 va (VaSet
 isHidden 1
 )
-xt "17000,9400,28400,10400"
+xt "17000,9400,30400,10600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -2381,7 +2402,7 @@ uid 2350,0
 decl (Decl
 n "startSynch"
 t "std_uLogic"
-o 30
+o 38
 suid 9,0
 )
 declText (MLText
@@ -2399,7 +2420,7 @@ uid 2352,0
 decl (Decl
 n "stopSynch"
 t "std_uLogic"
-o 32
+o 40
 suid 10,0
 )
 declText (MLText
@@ -2677,7 +2698,7 @@ uid 2369,0
 va (VaSet
 isHidden 1
 )
-xt "17000,35400,28400,36400"
+xt "17000,35400,30400,36600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -2701,7 +2722,7 @@ uid 2403,0
 decl (Decl
 n "sensor"
 t "std_uLogic"
-o 27
+o 35
 suid 11,0
 )
 declText (MLText
@@ -2719,7 +2740,7 @@ uid 2411,0
 decl (Decl
 n "sensorSynch"
 t "std_uLogic"
-o 28
+o 36
 suid 12,0
 )
 declText (MLText
@@ -3151,7 +3172,7 @@ uid 2481,0
 va (VaSet
 isHidden 1
 )
-xt "17000,58400,28400,59400"
+xt "17000,58400,30400,59600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -3175,7 +3196,7 @@ uid 2521,0
 decl (Decl
 n "resetSynch"
 t "std_ulogic"
-o 23
+o 31
 suid 13,0
 )
 declText (MLText
@@ -3348,7 +3369,7 @@ uid 2584,0
 va (VaSet
 isHidden 1
 )
-xt "19000,56400,30400,57400"
+xt "19000,56400,32400,57600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -3374,7 +3395,7 @@ uid 2602,0
 decl (Decl
 n "resetSynch_n"
 t "std_ulogic"
-o 24
+o 32
 suid 15,0
 )
 declText (MLText
@@ -3547,7 +3568,7 @@ uid 2632,0
 va (VaSet
 isHidden 1
 )
-xt "2000,33400,13400,34400"
+xt "2000,33400,15400,34600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -3573,7 +3594,7 @@ uid 2650,0
 decl (Decl
 n "sensor_n"
 t "std_uLogic"
-o 4
+o 5
 suid 16,0
 )
 declText (MLText
@@ -3644,7 +3665,7 @@ uid 2686,0
 decl (Decl
 n "LED1"
 t "std_uLogic"
-o 8
+o 14
 suid 17,0
 )
 declText (MLText
@@ -3715,7 +3736,7 @@ uid 2701,0
 decl (Decl
 n "LED2"
 t "std_ulogic"
-o 9
+o 15
 suid 18,0
 )
 declText (MLText
@@ -3734,7 +3755,7 @@ decl (Decl
 n "testOut"
 t "std_uLogic_vector"
 b "(1 TO testLineNb)"
-o 33
+o 41
 suid 19,0
 )
 declText (MLText
@@ -3907,7 +3928,7 @@ uid 3006,0
 va (VaSet
 isHidden 1
 )
-xt "2000,-16600,13400,-15600"
+xt "2000,-16600,15400,-15400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -4088,7 +4109,7 @@ uid 3032,0
 va (VaSet
 isHidden 1
 )
-xt "2000,7400,13400,8400"
+xt "2000,7400,15400,8600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -4269,7 +4290,7 @@ uid 3052,0
 va (VaSet
 isHidden 1
 )
-xt "2000,-4600,13400,-3600"
+xt "2000,-4600,15400,-3400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -4295,7 +4316,7 @@ uid 3076,0
 decl (Decl
 n "restart_n"
 t "std_uLogic"
-o 3
+o 4
 suid 20,0
 )
 declText (MLText
@@ -4313,7 +4334,7 @@ uid 3078,0
 decl (Decl
 n "start_n"
 t "std_uLogic"
-o 5
+o 6
 suid 21,0
 )
 declText (MLText
@@ -4331,7 +4352,7 @@ uid 3080,0
 decl (Decl
 n "stop_n"
 t "std_uLogic"
-o 6
+o 7
 suid 22,0
 )
 declText (MLText
@@ -4504,7 +4525,7 @@ uid 3119,0
 va (VaSet
 isHidden 1
 )
-xt "73000,35400,84400,36400"
+xt "73000,35400,86400,36600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -4685,7 +4706,7 @@ uid 3139,0
 va (VaSet
 isHidden 1
 )
-xt "73000,29400,84400,30400"
+xt "73000,29400,86400,30600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -4866,7 +4887,7 @@ uid 3159,0
 va (VaSet
 isHidden 1
 )
-xt "73000,23400,84400,24400"
+xt "73000,23400,86400,24600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -5047,7 +5068,7 @@ uid 3179,0
 va (VaSet
 isHidden 1
 )
-xt "73000,17400,84400,18400"
+xt "73000,17400,86400,18600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -5073,7 +5094,7 @@ uid 3191,0
 decl (Decl
 n "coil1_n"
 t "std_ulogic"
-o 11
+o 17
 suid 23,0
 )
 declText (MLText
@@ -5091,7 +5112,7 @@ uid 3193,0
 decl (Decl
 n "coil1"
 t "std_uLogic"
-o 17
+o 25
 suid 24,0
 )
 declText (MLText
@@ -5109,7 +5130,7 @@ uid 3199,0
 decl (Decl
 n "coil2_n"
 t "std_uLogic"
-o 12
+o 18
 suid 25,0
 )
 declText (MLText
@@ -5127,7 +5148,7 @@ uid 3201,0
 decl (Decl
 n "coil3_n"
 t "std_uLogic"
-o 13
+o 19
 suid 26,0
 )
 declText (MLText
@@ -5145,7 +5166,7 @@ uid 3203,0
 decl (Decl
 n "coil4_n"
 t "std_uLogic"
-o 14
+o 20
 suid 27,0
 )
 declText (MLText
@@ -5163,7 +5184,7 @@ uid 3211,0
 decl (Decl
 n "coil2"
 t "std_uLogic"
-o 18
+o 26
 suid 28,0
 )
 declText (MLText
@@ -5181,7 +5202,7 @@ uid 3217,0
 decl (Decl
 n "coil3"
 t "std_uLogic"
-o 19
+o 27
 suid 29,0
 )
 declText (MLText
@@ -5199,7 +5220,7 @@ uid 3223,0
 decl (Decl
 n "coil4"
 t "std_uLogic"
-o 20
+o 28
 suid 30,0
 )
 declText (MLText
@@ -5323,7 +5344,7 @@ uid 3368,0
 decl (Decl
 n "motorOn1"
 t "std_ulogic"
-o 15
+o 21
 suid 32,0
 )
 declText (MLText
@@ -5394,7 +5415,7 @@ uid 3396,0
 decl (Decl
 n "motorOn2"
 t "std_ulogic"
-o 16
+o 22
 suid 33,0
 )
 declText (MLText
@@ -5413,7 +5434,7 @@ decl (Decl
 n "LEDs_n"
 t "std_ulogic_vector"
 b "(1 TO 8)"
-o 10
+o 16
 suid 34,0
 )
 declText (MLText
@@ -5831,7 +5852,7 @@ uid 3645,0
 va (VaSet
 isHidden 1
 )
-xt "55000,9400,66400,10400"
+xt "55000,9400,68400,10600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -6012,7 +6033,7 @@ uid 3665,0
 va (VaSet
 isHidden 1
 )
-xt "55000,1400,66400,2400"
+xt "55000,1400,68400,2600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -6193,7 +6214,7 @@ uid 3685,0
 va (VaSet
 isHidden 1
 )
-xt "55000,-6600,66400,-5600"
+xt "55000,-6600,68400,-5400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -6374,7 +6395,7 @@ uid 3705,0
 va (VaSet
 isHidden 1
 )
-xt "55000,-14600,66400,-13600"
+xt "55000,-14600,68400,-13400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -6555,7 +6576,7 @@ uid 3725,0
 va (VaSet
 isHidden 1
 )
-xt "55000,-46600,66400,-45600"
+xt "55000,-46600,68400,-45400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -6736,7 +6757,7 @@ uid 3745,0
 va (VaSet
 isHidden 1
 )
-xt "55000,-38600,66400,-37600"
+xt "55000,-38600,68400,-37400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -6917,7 +6938,7 @@ uid 3765,0
 va (VaSet
 isHidden 1
 )
-xt "55000,-30600,66400,-29600"
+xt "55000,-30600,68400,-29400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -7098,7 +7119,7 @@ uid 3785,0
 va (VaSet
 isHidden 1
 )
-xt "55000,-22600,66400,-21600"
+xt "55000,-22600,68400,-21400"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -7602,7 +7623,7 @@ uid 4012,0
 decl (Decl
 n "reset1"
 t "std_ulogic"
-o 22
+o 30
 suid 36,0
 )
 declText (MLText
@@ -7829,7 +7850,7 @@ uid 4300,0
 va (VaSet
 isHidden 1
 )
-xt "2000,19400,13400,20400"
+xt "2000,19400,15400,20600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -8061,7 +8082,7 @@ uid 4320,0
 va (VaSet
 isHidden 1
 )
-xt "17000,21400,28400,22400"
+xt "17000,21400,30400,22600"
 st "delay = 1 ns    ( time ) "
 )
 header ""
@@ -8085,7 +8106,7 @@ uid 4363,0
 decl (Decl
 n "button4_n"
 t "std_uLogic"
-o 34
+o 1
 suid 39,0
 )
 declText (MLText
@@ -8103,7 +8124,7 @@ uid 4365,0
 decl (Decl
 n "button4"
 t "std_uLogic"
-o 35
+o 23
 suid 40,0
 )
 declText (MLText
@@ -8121,7 +8142,7 @@ uid 4454,0
 decl (Decl
 n "button4Synch"
 t "std_uLogic"
-o 36
+o 24
 suid 42,0
 )
 declText (MLText
@@ -8404,7 +8425,7 @@ uid 4539,0
 decl (Decl
 n "LCD_SCL"
 t "std_uLogic"
-o 38
+o 12
 suid 49,0
 )
 declText (MLText
@@ -8422,7 +8443,7 @@ uid 4541,0
 decl (Decl
 n "LCD_SI"
 t "std_uLogic"
-o 39
+o 13
 suid 50,0
 )
 declText (MLText
@@ -8440,7 +8461,7 @@ uid 4543,0
 decl (Decl
 n "LCD_A0"
 t "std_uLogic"
-o 40
+o 9
 suid 51,0
 )
 declText (MLText
@@ -8458,7 +8479,7 @@ uid 4687,0
 decl (Decl
 n "LCD_CS1_n"
 t "std_uLogic"
-o 37
+o 10
 suid 53,0
 )
 declText (MLText
@@ -8476,7 +8497,7 @@ uid 4689,0
 decl (Decl
 n "LCD_RST_n"
 t "std_uLogic"
-o 41
+o 11
 suid 54,0
 )
 declText (MLText
@@ -8511,7 +8532,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4747,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,43400,41400,44600"
 st "clock"
@@ -8546,7 +8566,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4751,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,45400,41300,46600"
 st "reset"
@@ -8581,7 +8600,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4755,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "48800,25500,52000,26700"
 st "coil1"
@@ -8618,7 +8636,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4759,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,25400,42100,26600"
 st "restart"
@@ -8653,7 +8670,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4763,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,27400,41100,28600"
 st "start"
@@ -8688,7 +8704,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4767,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,29400,40900,30600"
 st "stop"
@@ -8723,7 +8738,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4771,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "48800,27500,52000,28700"
 st "coil2"
@@ -8760,7 +8774,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4775,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "48800,29500,52000,30700"
 st "coil3"
@@ -8797,7 +8810,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4779,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "48800,31500,52000,32700"
 st "coil4"
@@ -8834,7 +8846,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4783,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,35300,42100,36500"
 st "sensor"
@@ -8869,7 +8880,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4787,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,41400,43400,42600"
 st "testMode"
@@ -8903,7 +8913,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4791,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "43000,22000,47600,23200"
 st "testOut"
@@ -8940,7 +8949,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4795,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "49200,37400,52000,38600"
 st "SCL"
@@ -8977,7 +8985,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4799,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "50100,39400,52000,40600"
 st "SI"
@@ -9014,7 +9021,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4803,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "49800,41400,52000,42600"
 st "A0"
@@ -9051,7 +9057,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 4807,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "38000,31400,42600,32600"
 st "button4"
@@ -9086,7 +9091,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4811,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "48000,43400,52000,44600"
 st "RST_n"
@@ -9123,7 +9127,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 4815,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "47900,35400,52000,36600"
 st "CS1_n"
@@ -12312,7 +12315,7 @@ blo "-7000,-79200"
 uid 1298,0
 va (VaSet
 )
-xt "-7000,-79000,6600,-74000"
+xt "-7000,-79000,10500,-73000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
@@ -12425,7 +12428,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,-80000"
-lastUid 4922,0
+lastUid 5020,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -12440,7 +12443,7 @@ text (MLText
 va (VaSet
 fg "65535,0,0"
 )
-xt "200,200,2500,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -12448,6 +12451,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -12487,7 +12518,6 @@ stg "VerticalLayoutStrategy"
 textVec [
 *409 (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "1500,2550,6100,3750"
 st "<library>"
@@ -12496,7 +12526,6 @@ tm "BdLibraryNameMgr"
 )
 *410 (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "1500,3750,5600,4950"
 st "<block>"
@@ -12505,7 +12534,6 @@ tm "BlkNameMgr"
 )
 *411 (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "1500,4950,2700,6150"
 st "I0"
@@ -12795,7 +12823,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,2500,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -13121,7 +13149,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1000,1300,2000"
+xt "0,1000,1500,2200"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -13145,13 +13173,13 @@ stg "VerticalLayoutStrategy"
 first (MLText
 va (VaSet
 )
-xt "0,0,3700,1000"
+xt "0,0,5000,1200"
 st "Auto list"
 )
 second (MLText
 va (VaSet
 )
-xt "0,1000,7500,2000"
+xt "0,1000,9600,2200"
 st "User defined list"
 tm "PortMapTextMgr"
 )
@@ -13173,7 +13201,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,14200,-400"
+xt "0,-1400,18500,-200"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -13233,7 +13261,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,8800,-400"
+xt "0,-1400,11000,-200"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -13463,7 +13491,7 @@ port (LogicalPort
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 1
+o 2
 suid 1,0
 )
 )
@@ -13474,7 +13502,7 @@ port (LogicalPort
 decl (Decl
 n "reset_n"
 t "std_ulogic"
-o 2
+o 3
 suid 2,0
 )
 )
@@ -13486,7 +13514,7 @@ m 4
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 21
+o 29
 suid 3,0
 )
 )
@@ -13497,7 +13525,7 @@ port (LogicalPort
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 7
+o 8
 suid 4,0
 )
 )
@@ -13509,7 +13537,7 @@ m 4
 decl (Decl
 n "stop"
 t "std_uLogic"
-o 31
+o 39
 suid 5,0
 )
 )
@@ -13521,7 +13549,7 @@ m 4
 decl (Decl
 n "start"
 t "std_uLogic"
-o 29
+o 37
 suid 6,0
 )
 )
@@ -13533,7 +13561,7 @@ m 4
 decl (Decl
 n "restart"
 t "std_uLogic"
-o 25
+o 33
 suid 7,0
 )
 )
@@ -13545,7 +13573,7 @@ m 4
 decl (Decl
 n "restartSynch"
 t "std_uLogic"
-o 26
+o 34
 suid 8,0
 )
 )
@@ -13557,7 +13585,7 @@ m 4
 decl (Decl
 n "startSynch"
 t "std_uLogic"
-o 30
+o 38
 suid 9,0
 )
 )
@@ -13569,7 +13597,7 @@ m 4
 decl (Decl
 n "stopSynch"
 t "std_uLogic"
-o 32
+o 40
 suid 10,0
 )
 )
@@ -13581,7 +13609,7 @@ m 4
 decl (Decl
 n "sensor"
 t "std_uLogic"
-o 27
+o 35
 suid 11,0
 )
 )
@@ -13593,7 +13621,7 @@ m 4
 decl (Decl
 n "sensorSynch"
 t "std_uLogic"
-o 28
+o 36
 suid 12,0
 )
 )
@@ -13605,7 +13633,7 @@ m 4
 decl (Decl
 n "resetSynch"
 t "std_ulogic"
-o 23
+o 31
 suid 13,0
 )
 )
@@ -13617,7 +13645,7 @@ m 4
 decl (Decl
 n "resetSynch_n"
 t "std_ulogic"
-o 24
+o 32
 suid 15,0
 )
 )
@@ -13628,7 +13656,7 @@ port (LogicalPort
 decl (Decl
 n "sensor_n"
 t "std_uLogic"
-o 4
+o 5
 suid 16,0
 )
 )
@@ -13640,7 +13668,7 @@ m 1
 decl (Decl
 n "LED1"
 t "std_uLogic"
-o 8
+o 14
 suid 17,0
 )
 )
@@ -13652,7 +13680,7 @@ m 1
 decl (Decl
 n "LED2"
 t "std_ulogic"
-o 9
+o 15
 suid 18,0
 )
 )
@@ -13665,7 +13693,7 @@ decl (Decl
 n "testOut"
 t "std_uLogic_vector"
 b "(1 TO testLineNb)"
-o 33
+o 41
 suid 19,0
 )
 )
@@ -13676,7 +13704,7 @@ port (LogicalPort
 decl (Decl
 n "restart_n"
 t "std_uLogic"
-o 3
+o 4
 suid 20,0
 )
 )
@@ -13687,7 +13715,7 @@ port (LogicalPort
 decl (Decl
 n "start_n"
 t "std_uLogic"
-o 5
+o 6
 suid 21,0
 )
 )
@@ -13698,7 +13726,7 @@ port (LogicalPort
 decl (Decl
 n "stop_n"
 t "std_uLogic"
-o 6
+o 7
 suid 22,0
 )
 )
@@ -13710,7 +13738,7 @@ m 1
 decl (Decl
 n "coil1_n"
 t "std_ulogic"
-o 11
+o 17
 suid 23,0
 )
 )
@@ -13722,7 +13750,7 @@ m 4
 decl (Decl
 n "coil1"
 t "std_uLogic"
-o 17
+o 25
 suid 24,0
 )
 )
@@ -13734,7 +13762,7 @@ m 1
 decl (Decl
 n "coil2_n"
 t "std_uLogic"
-o 12
+o 18
 suid 25,0
 )
 )
@@ -13746,7 +13774,7 @@ m 1
 decl (Decl
 n "coil3_n"
 t "std_uLogic"
-o 13
+o 19
 suid 26,0
 )
 )
@@ -13758,7 +13786,7 @@ m 1
 decl (Decl
 n "coil4_n"
 t "std_uLogic"
-o 14
+o 20
 suid 27,0
 )
 )
@@ -13770,7 +13798,7 @@ m 4
 decl (Decl
 n "coil2"
 t "std_uLogic"
-o 18
+o 26
 suid 28,0
 )
 )
@@ -13782,7 +13810,7 @@ m 4
 decl (Decl
 n "coil3"
 t "std_uLogic"
-o 19
+o 27
 suid 29,0
 )
 )
@@ -13794,7 +13822,7 @@ m 4
 decl (Decl
 n "coil4"
 t "std_uLogic"
-o 20
+o 28
 suid 30,0
 )
 )
@@ -13806,7 +13834,7 @@ m 1
 decl (Decl
 n "motorOn1"
 t "std_ulogic"
-o 15
+o 21
 suid 32,0
 )
 )
@@ -13818,7 +13846,7 @@ m 1
 decl (Decl
 n "motorOn2"
 t "std_ulogic"
-o 16
+o 22
 suid 33,0
 )
 )
@@ -13831,7 +13859,7 @@ decl (Decl
 n "LEDs_n"
 t "std_ulogic_vector"
 b "(1 TO 8)"
-o 10
+o 16
 suid 34,0
 )
 )
@@ -13843,7 +13871,7 @@ m 4
 decl (Decl
 n "reset1"
 t "std_ulogic"
-o 22
+o 30
 suid 36,0
 )
 )
@@ -13854,7 +13882,7 @@ port (LogicalPort
 decl (Decl
 n "button4_n"
 t "std_uLogic"
-o 34
+o 1
 suid 39,0
 )
 )
@@ -13866,7 +13894,7 @@ m 4
 decl (Decl
 n "button4"
 t "std_uLogic"
-o 35
+o 23
 suid 40,0
 )
 )
@@ -13878,7 +13906,7 @@ m 4
 decl (Decl
 n "button4Synch"
 t "std_uLogic"
-o 36
+o 24
 suid 42,0
 )
 )
@@ -13890,7 +13918,7 @@ m 1
 decl (Decl
 n "LCD_SCL"
 t "std_uLogic"
-o 38
+o 12
 suid 49,0
 )
 )
@@ -13902,7 +13930,7 @@ m 1
 decl (Decl
 n "LCD_SI"
 t "std_uLogic"
-o 39
+o 13
 suid 50,0
 )
 )
@@ -13914,7 +13942,7 @@ m 1
 decl (Decl
 n "LCD_A0"
 t "std_uLogic"
-o 40
+o 9
 suid 51,0
 )
 )
@@ -13926,7 +13954,7 @@ m 1
 decl (Decl
 n "LCD_CS1_n"
 t "std_uLogic"
-o 37
+o 10
 suid 53,0
 )
 )
@@ -13938,7 +13966,7 @@ m 1
 decl (Decl
 n "LCD_RST_n"
 t "std_uLogic"
-o 41
+o 11
 suid 54,0
 )
 )
@@ -14008,7 +14036,7 @@ uid 3401,0
 )
 *491 (MRCItem
 litem &445
-pos 16
+pos 22
 dimension 20
 uid 3403,0
 )
@@ -14020,61 +14048,61 @@ uid 3405,0
 )
 *493 (MRCItem
 litem &447
-pos 17
+pos 23
 dimension 20
 uid 3407,0
 )
 *494 (MRCItem
 litem &448
-pos 18
+pos 24
 dimension 20
 uid 3409,0
 )
 *495 (MRCItem
 litem &449
-pos 19
+pos 25
 dimension 20
 uid 3411,0
 )
 *496 (MRCItem
 litem &450
-pos 20
+pos 26
 dimension 20
 uid 3413,0
 )
 *497 (MRCItem
 litem &451
-pos 21
+pos 27
 dimension 20
 uid 3415,0
 )
 *498 (MRCItem
 litem &452
-pos 22
+pos 28
 dimension 20
 uid 3417,0
 )
 *499 (MRCItem
 litem &453
-pos 23
+pos 29
 dimension 20
 uid 3419,0
 )
 *500 (MRCItem
 litem &454
-pos 24
+pos 30
 dimension 20
 uid 3421,0
 )
 *501 (MRCItem
 litem &455
-pos 25
+pos 31
 dimension 20
 uid 3423,0
 )
 *502 (MRCItem
 litem &456
-pos 26
+pos 32
 dimension 20
 uid 3427,0
 )
@@ -14098,7 +14126,7 @@ uid 3433,0
 )
 *506 (MRCItem
 litem &460
-pos 27
+pos 33
 dimension 20
 uid 3435,0
 )
@@ -14128,7 +14156,7 @@ uid 3443,0
 )
 *511 (MRCItem
 litem &465
-pos 28
+pos 34
 dimension 20
 uid 3445,0
 )
@@ -14152,19 +14180,19 @@ uid 3451,0
 )
 *515 (MRCItem
 litem &469
-pos 29
+pos 35
 dimension 20
 uid 3453,0
 )
 *516 (MRCItem
 litem &470
-pos 30
+pos 36
 dimension 20
 uid 3455,0
 )
 *517 (MRCItem
 litem &471
-pos 31
+pos 37
 dimension 20
 uid 3457,0
 )
@@ -14188,55 +14216,55 @@ uid 3944,0
 )
 *521 (MRCItem
 litem &475
-pos 32
+pos 38
 dimension 20
 uid 4015,0
 )
 *522 (MRCItem
 litem &476
-pos 33
+pos 16
 dimension 20
 uid 4457,0
 )
 *523 (MRCItem
 litem &477
-pos 34
+pos 39
 dimension 20
 uid 4459,0
 )
 *524 (MRCItem
 litem &478
-pos 35
+pos 40
 dimension 20
 uid 4461,0
 )
 *525 (MRCItem
 litem &479
-pos 36
+pos 17
 dimension 20
 uid 4550,0
 )
 *526 (MRCItem
 litem &480
-pos 37
+pos 18
 dimension 20
 uid 4552,0
 )
 *527 (MRCItem
 litem &481
-pos 38
+pos 19
 dimension 20
 uid 4554,0
 )
 *528 (MRCItem
 litem &482
-pos 39
+pos 20
 dimension 20
 uid 4692,0
 )
 *529 (MRCItem
 litem &483
-pos 40
+pos 21
 dimension 20
 uid 4694,0
 )
