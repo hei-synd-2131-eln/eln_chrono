@@ -29,4 +29,4 @@ fi
 #-------------------------------------------------------------------------------
 # Launch application
 #
-$hdl_script_name -v -d $design_directory -n $design_name
+$hdl_script_name -v -d $design_directory -n $design_name -m hds.hdp
