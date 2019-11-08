@@ -4327,7 +4327,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200+1304+40"
+logWindowGeometry "547x311+698+307"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6301,6 +6301,36 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "Board"
+showingHierarchy 0
+openLibs [
+"Board"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Chronometer"
+showingHierarchy 0
+openLibs [
+"Chronometer"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Chronometer_test"
+showingHierarchy 0
+openLibs [
+"Chronometer_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6319,16 +6349,16 @@ SplitterClientPrefs [
 (SplitterPreference
 hidden 0
 expand 0
-size 180
+size 190
 )
 ]
 displayHierarchy 0
 xPos 0
-yPos 0
-width 1936
-height 1056
+yPos 40
+width 1709
+height 944
 activeSidePanelTab 2
-sidePanelSize 278
+sidePanelSize 293
 showUnixHiddenFiles 0
 componentBrowserXpos 569
 componentBrowserYpos 300
