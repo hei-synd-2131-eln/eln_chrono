@@ -16,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "26.1"
-appVersion "2015.2 (Build 5)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -742,23 +742,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hdl"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit\\symbol.sb.info"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit\\symbol.sb.user"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds"
 )
 (vvPair
 variable "appl"
@@ -778,27 +778,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit"
 )
 (vvPair
 variable "d_logical"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\chronoCircuit"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\chronoCircuit"
 )
 (vvPair
 variable "date"
-value "15.11.2017"
+value "08.11.2019"
 )
 (vvPair
 variable "day"
-value "Mi"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Mittwoch"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "08"
 )
 (vvPair
 variable "designName"
@@ -826,11 +826,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "oliver.gubler"
+value "silvan.zahno"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.11.2017"
+value "08.11.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -838,11 +838,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE5370"
+value "WE6996"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:00:23"
+value "16:26:12"
 )
 (vvPair
 variable "group"
@@ -850,7 +850,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE5370"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -894,11 +894,11 @@ value "November"
 )
 (vvPair
 variable "p"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit\\symbol.sb"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\chrono@circuit\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "E:\\projects\\EDA\\VHDL\\labs\\ELN_chrono\\Prefs\\..\\Chronometer\\hds\\chronoCircuit\\symbol.sb"
+value "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\..\\Chronometer\\hds\\chronoCircuit\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -906,7 +906,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ElN_chrono"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -982,7 +982,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:00:23"
+value "16:26:12"
 )
 (vvPair
 variable "unit"
@@ -990,11 +990,11 @@ value "chronoCircuit"
 )
 (vvPair
 variable "user"
-value "oliver.gubler"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2015.2 (Build 5)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -1002,11 +1002,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2017"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "17"
+value "19"
 )
 ]
 )
@@ -1035,7 +1035,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 55,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,25400,43400,26600"
 st "clock"
@@ -1079,7 +1078,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 65,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,27400,43300,28600"
 st "reset"
@@ -1123,7 +1121,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 108,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "50800,7500,54000,8700"
 st "coil1"
@@ -1169,7 +1166,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 134,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,7400,44100,8600"
 st "restart"
@@ -1213,7 +1209,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 172,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,9400,43100,10600"
 st "start"
@@ -1257,7 +1252,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 177,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,11400,42900,12600"
 st "stop"
@@ -1301,7 +1295,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 182,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "50800,9500,54000,10700"
 st "coil2"
@@ -1347,7 +1340,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 187,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "50800,11500,54000,12700"
 st "coil3"
@@ -1393,7 +1385,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 192,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "50800,13500,54000,14700"
 st "coil4"
@@ -1439,7 +1430,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 197,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,17300,44100,18500"
 st "sensor"
@@ -1483,7 +1473,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 203,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,23400,45400,24600"
 st "testMode"
@@ -1526,7 +1515,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 208,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "45000,4000,49600,5200"
 st "testOut"
@@ -1572,7 +1560,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 724,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "51200,19400,54000,20600"
 st "SCL"
@@ -1618,7 +1605,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 729,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "52100,21400,54000,22600"
 st "SI"
@@ -1664,7 +1650,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 734,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "51800,23400,54000,24600"
 st "A0"
@@ -1710,7 +1695,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 800,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "40000,13400,44600,14600"
 st "button4"
@@ -1754,7 +1738,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 862,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "50000,25400,54000,26600"
 st "RST_n"
@@ -1800,7 +1783,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 892,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "49900,17400,54000,18600"
 st "CS1_n"
@@ -1948,7 +1930,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46300,49000"
+xt "36200,48500,36200,48500"
 st "
 by %user on %dd %month %year
 "
@@ -1978,7 +1960,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44000,56200,45000"
+xt "53200,44500,53200,44500"
 st "
 Project:
 "
@@ -2008,7 +1990,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,46200,47000"
+xt "36200,46500,36200,46500"
 st "
 <enter diagram title here>
 "
@@ -2038,7 +2020,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46000,34300,47000"
+xt "32200,46500,32200,46500"
 st "
 Title:
 "
@@ -2068,7 +2050,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,45200,62400,46200"
+xt "53200,45200,67300,46400"
 st "
 <enter comments here>
 "
@@ -2097,7 +2079,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,67300,45000"
+xt "57200,44500,57200,44500"
 st "
 <enter project name here>
 "
@@ -2126,7 +2108,7 @@ uid 158,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "39150,44500,45850,45500"
+xt "37350,44400,47650,45600"
 st "
 <company name>
 "
@@ -2157,7 +2139,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47000,34300,48000"
+xt "32200,47500,32200,47500"
 st "
 Path:
 "
@@ -2187,7 +2169,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48000,34900,49000"
+xt "32200,48500,32200,48500"
 st "
 Edited:
 "
@@ -2217,7 +2199,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,49100,48000"
+xt "36200,47500,36200,47500"
 st "
 %library/%unit/%view
 "
@@ -2270,7 +2252,6 @@ blo "0,1000"
 *132 (MLText
 uid 104,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,1200,16900,4800"
 st "LIBRARY ieee;
@@ -2314,7 +2295,6 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "Verdana,9,0"
 )
 xt "200,200,3200,1400"
 st "
@@ -2568,7 +2548,7 @@ xt "0,9900,0,9900"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 964,0
+lastUid 987,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

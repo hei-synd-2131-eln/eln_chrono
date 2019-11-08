@@ -1264,8 +1264,8 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\Cursor_trial\\Prefs\\cursor.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\eln_labs.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
-"C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -6331,6 +6331,16 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "Memory"
+showingHierarchy 0
+openLibs [
+"Memory"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6358,6 +6368,7 @@ yPos 40
 width 1709
 height 944
 activeSidePanelTab 2
+activeLibraryTab 4
 sidePanelSize 293
 showUnixHiddenFiles 0
 componentBrowserXpos 569

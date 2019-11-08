@@ -20,7 +20,7 @@ default_view
 *.vhg
 *.DS_STORE
 *.xrf/
-*._fpf
+#*._fpf
 
 # Ignore verilog and c files
 *.v
