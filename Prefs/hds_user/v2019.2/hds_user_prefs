@@ -1264,8 +1264,8 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\Cursor_trial\\Prefs\\cursor.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\eln_labs.hdp"
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
-"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -6332,10 +6332,10 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Memory"
+name "io"
 showingHierarchy 0
 openLibs [
-"Memory"
+"io"
 ]
 declHierarchy [
 ]
