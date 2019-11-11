@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -55,8 +56,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "32.1"
+appVersion "2019.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -67,23 +68,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hdl"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds\\lcd@serializer_tb\\struct.bd.info"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds\\lcd@serializer_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds\\lcd@serializer_tb\\struct.bd.user"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds\\lcd@serializer_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -95,35 +96,35 @@ value "struct"
 )
 (vvPair
 variable "concat_file"
-value "ADC"
+value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds\\lcd@serializer_tb"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds\\lcd@serializer_tb"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds\\lcdSerializer_tb"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds\\lcdSerializer_tb"
 )
 (vvPair
 variable "date"
-value "12.07.2013"
+value "11.11.2019"
 )
 (vvPair
 variable "day"
-value "ven."
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "11"
 )
 (vvPair
 variable "designName"
@@ -150,12 +151,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "silvan.zahno"
+)
+(vvPair
+variable "graphical_source_date"
+value "11.11.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WE6996"
+)
+(vvPair
+variable "graphical_source_time"
+value "07:37:47"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WE6996"
 )
 (vvPair
 variable "language"
@@ -171,11 +192,11 @@ value "$HDS_PROJECT_DIR/../libs/SPI_test/concat"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/$DESIGN_NAME/Lcd_test/work"
+value "$SCRATCH_DIR/ElN/Libraries/Lcd_test/work"
 )
 (vvPair
 variable "mm"
-value "07"
+value "11"
 )
 (vvPair
 variable "module_name"
@@ -183,19 +204,19 @@ value "lcdSerializer_tb"
 )
 (vvPair
 variable "month"
-value "juil."
+value "Nov"
 )
 (vvPair
 variable "month_long"
-value "juillet"
+value "November"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds\\lcd@serializer_tb\\struct.bd"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds\\lcd@serializer_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\LCD\\..\\Libs\\Lcd_test\\hds\\lcdSerializer_tb\\struct.bd"
+value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\Lcd_test\\hds\\lcdSerializer_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -271,7 +292,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:36:09"
+value "07:37:47"
 )
 (vvPair
 variable "unit"
@@ -279,11 +300,11 @@ value "lcdSerializer_tb"
 )
 (vvPair
 variable "user"
-value "francois"
+value "silvan.zahno"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -291,15 +312,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2013"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "13"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 20,0
 optionalChildren [
 *1 (Grouping
@@ -323,7 +344,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "78200,58500,88300,59500"
+xt "78200,58400,93600,59600"
 st "
 <enter project name here>
 "
@@ -384,7 +405,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,64500,61200,65500"
+xt "51200,64400,69600,65600"
 st "
 by %user on %dd %month %year
 "
@@ -414,7 +435,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,58500,75200,59500"
+xt "72200,58400,76900,59600"
 st "
 Project:
 "
@@ -444,7 +465,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,60500,61200,61500"
+xt "51200,60400,66400,61600"
 st "
 <enter diagram title here>
 "
@@ -474,7 +495,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,60500,48300,61500"
+xt "46200,60400,49600,61600"
 st "
 Title:
 "
@@ -504,7 +525,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,62500,48300,63500"
+xt "46200,62400,49600,63600"
 st "
 Path:
 "
@@ -534,7 +555,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,60200,81400,61200"
+xt "72200,60200,86300,61400"
 st "
 <enter comments here>
 "
@@ -563,7 +584,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,62500,57700,63500"
+xt "51200,62400,61100,63600"
 st "
 
 %library/%unit/%view
@@ -595,7 +616,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,64500,48900,65500"
+xt "46200,64400,50500,65600"
 st "
 Edited:
 "
@@ -718,7 +739,7 @@ uid 2316,0
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 1
+o 9
 suid 37,0
 )
 declText (MLText
@@ -735,7 +756,7 @@ uid 2324,0
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
+o 7
 suid 38,0
 )
 declText (MLText
@@ -769,7 +790,7 @@ uid 3057,0
 decl (Decl
 n "CS_n"
 t "std_ulogic"
-o 4
+o 2
 suid 47,0
 )
 declText (MLText
@@ -786,7 +807,7 @@ uid 3065,0
 decl (Decl
 n "A0"
 t "std_ulogic"
-o 5
+o 1
 suid 48,0
 )
 declText (MLText
@@ -803,7 +824,7 @@ uid 3073,0
 decl (Decl
 n "SI"
 t "std_ulogic"
-o 6
+o 5
 suid 49,0
 )
 declText (MLText
@@ -820,7 +841,7 @@ uid 3081,0
 decl (Decl
 n "SCL"
 t "std_ulogic"
-o 7
+o 4
 suid 50,0
 )
 declText (MLText
@@ -837,7 +858,7 @@ uid 3149,0
 decl (Decl
 n "busy"
 t "std_ulogic"
-o 8
+o 6
 suid 51,0
 )
 declText (MLText
@@ -854,7 +875,7 @@ uid 3157,0
 decl (Decl
 n "send"
 t "std_ulogic"
-o 9
+o 10
 suid 52,0
 )
 declText (MLText
@@ -872,7 +893,7 @@ decl (Decl
 n "data"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 10
+o 8
 suid 53,0
 )
 declText (MLText
@@ -906,7 +927,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 3475,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "57800,23400,60000,24600"
 st "A0"
@@ -943,7 +963,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 3479,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,27400,49400,28600"
 st "clock"
@@ -978,7 +997,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 3483,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "56600,27400,60000,28600"
 st "CS_n"
@@ -1015,7 +1033,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 3487,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,29400,49300,30600"
 st "reset"
@@ -1050,7 +1067,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 3491,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "56000,25400,60000,26600"
 st "RST_n"
@@ -1087,7 +1103,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 3495,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "57200,21400,60000,22600"
 st "SCL"
@@ -1124,7 +1139,6 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 3499,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "58100,19400,60000,20600"
 st "SI"
@@ -1161,7 +1175,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 3503,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,19400,48900,20600"
 st "data"
@@ -1197,7 +1210,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 3507,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,21400,49100,22600"
 st "send"
@@ -1232,7 +1244,6 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 3511,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "46000,23400,49100,24600"
 st "busy"
@@ -1310,8 +1321,7 @@ font "Courier New,8,0"
 )
 xt "45000,36800,71500,38400"
 st "dataBitNb      = dataBitNb         ( positive )  
-baudRateDivide = baudRateDivide    ( integer  )  
-"
+baudRateDivide = baudRateDivide    ( integer  )  "
 )
 header ""
 )
@@ -1768,7 +1778,6 @@ blo "0,1000"
 *52 (MLText
 uid 11,0
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,1200,17500,4800"
 st "LIBRARY ieee;
@@ -1807,7 +1816,7 @@ uid 15,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2000,27500,4000"
+xt "20000,2000,32100,4400"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -1874,7 +1883,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 3521,0
+lastUid 3607,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1888,7 +1897,6 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "Verdana,9,0"
 )
 xt "200,200,3200,1400"
 st "
@@ -1898,6 +1906,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -2602,7 +2638,6 @@ ps "ConnStartEndStrategy"
 stg "VerticalLayoutStrategy"
 first (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,-200,4700,1000"
 st "bundle0"
@@ -2611,7 +2646,6 @@ tm "BundleNameMgr"
 )
 second (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,1000,1500,2200"
 st "()"
@@ -2636,12 +2670,10 @@ ps "BottomRightOffsetStrategy"
 stg "VerticalLayoutStrategy"
 first (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 )
 second (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 tm "PortMapTextMgr"
 )
@@ -2662,7 +2694,6 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 xt "-2950,-1200,15550,0"
 st "g0: FOR i IN 0 TO n GENERATE"
@@ -2680,7 +2711,6 @@ xt "50,50,1250,1450"
 )
 num (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "-50,150,1350,1350"
 st "1"
@@ -2702,7 +2732,6 @@ blo "14100,21000"
 )
 *78 (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 xt "14100,21200,14100,21200"
 tm "BdFrameDeclTextMgr"
@@ -2725,7 +2754,6 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 xt "-1800,-1200,9200,0"
 st "b0: BLOCK (guard)"
@@ -2743,7 +2771,6 @@ xt "50,50,1250,1450"
 )
 num (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "-50,150,1350,1350"
 st "1"
@@ -2765,7 +2792,6 @@ blo "14100,21000"
 )
 *80 (MLText
 va (VaSet
-font "Verdana,9,0"
 )
 xt "14100,21200,14100,21200"
 tm "BdFrameDeclTextMgr"
@@ -2789,7 +2815,6 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,750,2800,1950"
 st "Port"
@@ -2818,7 +2843,6 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
 xt "0,750,2800,1950"
 st "Port"
@@ -2958,7 +2982,7 @@ m 4
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 1
+o 9
 suid 37,0
 )
 )
@@ -2970,7 +2994,7 @@ m 4
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
+o 7
 suid 38,0
 )
 )
@@ -2994,7 +3018,7 @@ m 4
 decl (Decl
 n "CS_n"
 t "std_ulogic"
-o 4
+o 2
 suid 47,0
 )
 )
@@ -3006,7 +3030,7 @@ m 4
 decl (Decl
 n "A0"
 t "std_ulogic"
-o 5
+o 1
 suid 48,0
 )
 )
@@ -3018,7 +3042,7 @@ m 4
 decl (Decl
 n "SI"
 t "std_ulogic"
-o 6
+o 5
 suid 49,0
 )
 )
@@ -3030,7 +3054,7 @@ m 4
 decl (Decl
 n "SCL"
 t "std_ulogic"
-o 7
+o 4
 suid 50,0
 )
 )
@@ -3042,7 +3066,7 @@ m 4
 decl (Decl
 n "busy"
 t "std_ulogic"
-o 8
+o 6
 suid 51,0
 )
 )
@@ -3054,7 +3078,7 @@ m 4
 decl (Decl
 n "send"
 t "std_ulogic"
-o 9
+o 10
 suid 52,0
 )
 )
@@ -3067,7 +3091,7 @@ decl (Decl
 n "data"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 10
+o 8
 suid 53,0
 )
 )
