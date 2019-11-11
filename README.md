@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Labor Files for ELN Semester Project Chronometer <a href="https://cyberlearn.hes-so.ch/course/view.php?id=11900" target="_blank">Moodle Cyberlearn</a>.</h4>
+<h4 align="center">Labor Files for ELN Semester Project Chronometer <a href="https://cyberlearn.hes-so.ch/course/view.php?id=14276" target="_blank">Moodle Cyberlearn</a>.</h4>
 
 # Table of contents
 <p align="center">
