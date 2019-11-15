@@ -98,7 +98,7 @@ For additional information, exceptions, compatibility issues and updates, visit 
 "runMethod"
 "gui"
 "runnableObject"
-"$ISE_HOME\\bin\\nt\\ise.exe"
+"$ISE_HOME\\bin\\nt64\\ise.exe"
 "runnableObjectType"
 "executable"
 "useViewSpecific"
