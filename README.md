@@ -68,9 +68,10 @@ git push origin master
 
 ## Credits
 [(Back to top)](#table-of-contents)
-* COF
-* PRC
-* ZAS
+* CoF
+* BiC
+* PrC
+* ZaS
 
 ## License
 [(Back to top)](#table-of-contents)
