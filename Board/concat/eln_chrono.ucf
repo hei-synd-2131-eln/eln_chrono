@@ -12,28 +12,12 @@ NET     "LED1"          LOC = "B16";
 NET     "LED2"          LOC = "A16";
 
 #-------------------------------------------------------------------------------
-# HEB-LCD V1
-#
-#NET     "restart_n"     LOC = "E8" ;
-#NET     "start_n"       LOC = "G9" ;
-#NET     "stop_n"        LOC = "F9" ;
-#NET     "button4_n"     LOC = "F7" ;
-#NET     "LEDs_n<1>"     LOC = "E7" ;
-#NET     "LEDs_n<2>"     LOC = "B14";
-#NET     "LEDs_n<3>"     LOC = "B13";
-#NET     "LEDs_n<4>"     LOC = "B11";
-#NET     "LEDs_n<5>"     LOC = "A8" ;
-#NET     "LEDs_n<6>"     LOC = "C7" ;
-#NET     "LEDs_n<7>"     LOC = "A14";
-#NET     "LEDs_n<8>"     LOC = "A11";
-
-#-------------------------------------------------------------------------------
 # HEB-LCD V2
 #
-NET     "restart_n"     LOC = "F8" ;
-NET     "start_n"       LOC = "F7" ;
+NET     "start_n"       LOC = "G9" ;
 NET     "stop_n"        LOC = "F9" ;
-NET     "button4_n"     LOC = "G9" ;
+NET     "restart_n"     LOC = "F7" ;
+NET     "button4_n"     LOC = "F8" ;
 NET     "LEDs_n<1>"     LOC = "E9" ;
 NET     "LEDs_n<2>"     LOC = "A8";
 NET     "LEDs_n<3>"     LOC = "F11";

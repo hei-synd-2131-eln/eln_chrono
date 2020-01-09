@@ -25,6 +25,7 @@ BEGIN
     sensor   <= '0';
     start    <= '0';
     stop     <= '0';
+    button4  <= '0';
 
     wait for 10 us;
     restart <=  '1', '0' after testModePulseWidth;
@@ -35,8 +36,12 @@ BEGIN
     wait for 50 us;
     start <= '1', '0' after testModePulseWidth;
 
-    wait for 300 us;
+    wait for 200 us;
+    button4 <= '1';
+
+    wait for 100 us;
     stop <= '1', '0' after testModePulseWidth;
+    wait for 2*testModePulseWidth;
 
     ----------------------------------------------------------------------------
                                                                    -- real speed

@@ -102,14 +102,6 @@ first "Dtpad"
 second "dtpad '%(p)'"
 )
 (pair
-first "Emacs"
-second "emacs +%(l) '%(p)'"
-)
-(pair
-first "Emacs (using server)"
-second "emacsclient +%(l) '%(p)'"
-)
-(pair
 first "NEdit"
 second "nedit +%(l) '%(p)'"
 )
@@ -118,24 +110,12 @@ first "NEdit (using server)"
 second "nc -noask  +%(l) '%(p)'"
 )
 (pair
+first "Sublime"
+second "subl '%(p)':%(l)"
+)
+(pair
 first "Textedit"
 second "textedit '%(p)'"
-)
-(pair
-first "XEmacs"
-second "xemacs +%(l) '%(p)'"
-)
-(pair
-first "XEmacs (using server)"
-second "gnuclient +%(l) '%(p)'"
-)
-(pair
-first "XTerm with Editor"
-second "cd '%(d)'; xterm -T '%(p)' -n '%(f)' -e \"${EDITOR:-vi}\" '%(f)'"
-)
-(pair
-first "vi"
-second "cd '%(d)'; xterm -T '%(p)' -n '%(f)' -e vi +%(l) '%(f)'"
 )
 ]
 unixViewerCmdMappings [
@@ -231,7 +211,7 @@ second "uedit32.exe \"%(p)/%(l)\" /r"
 defaultTextPrintingCmd "Enscript"
 win32DefaultEditor "Builtin"
 win32DefaultViewer "Builtin"
-unixDefaultEditor "Builtin"
+unixDefaultEditor "Sublime"
 unixDefaultViewer "Builtin"
 defaultLanguage 11
 defaultVhdlDialect 11
@@ -434,90 +414,28 @@ second ""
 ]
 tasksOrder [
 "USER:Generate"
-"USER:DesignChecker"
-"USER:DesignChecker Flow"
-"USER:Register Assistant"
-"USER:SVAssistant Flow"
 "USER:ModelSim Compile"
 "USER:ModelSim Simulate"
-"USER:QuestaSim Compile"
-"USER:QuestaSim Simulate"
-"USER:Precision Synthesis"
-"USER:LeonardoSpectrum"
-"USER:Xilinx CORE Generator"
-"USER:Altera MegaWizard"
-"USER:Altera SOPC Builder"
-"USER:Xilinx Platform Studio"
-"USER:FPGA Technology Setup"
-"USER:FPGA Library Compile"
-"USER:Xilinx Synthesis Tool"
-"USER:Xilinx Place and Route"
-"USER:Xilinx Import"
-"USER:Quartus Synthesis"
-"USER:Quartus Place and Route"
-"USER:Quartus Programmer"
-"USER:Microsemi Libero"
-"USER:Lattice Place and Route"
-"USER:C/C++ Wrapper Generator"
 "USER:ModelSim Flow"
-"USER:QuestaSim Flow"
-"USER:LeonardoSpectrum Flow"
-"USER:Precision Synthesis Flow"
-"USER:Xilinx Synthesis Tool Flow"
-"USER:Xilinx Vivado Flow"
-"USER:Quartus Synthesis Flow"
-"USER:I/O Design Flow"
+"USER:Xilinx Project Navigator"
+"USER:Prepare for Synthesis"
 ]
 tasksToolbarOrder [
-"\"USER:DesignChecker Flow\""
-"\"USER:Register Assistant\""
-"\"USER:SVAssistant Flow\""
 "USER:Generate"
 "\"USER:ModelSim Flow\""
-"\"USER:Precision Synthesis Flow\""
-"\"USER:QuestaSim Flow\""
+"\"USER:Prepare for Synthesis\""
+"\"USER:Xilinx Project Navigator\""
 ]
 tasksMenubarOrder [
-"\"USER:DesignChecker Flow\""
-"\"USER:SVAssistant Flow\""
 "USER:Generate"
 "\"USER:ModelSim Flow\""
-"\"USER:Precision Synthesis Flow\""
-"\"USER:QuestaSim Flow\""
 ]
 tasksShortcutbarOrder [
 "Setup DesignChecker"
-"\"USER:Altera MegaWizard\""
-"\"USER:Altera SOPC Builder\""
-"\"USER:C/C++ Wrapper Generator\""
-"\"USER:DesignChecker Flow\""
-"\"USER:FPGA Technology Setup\""
-"\"USER:I/O Design Flow\""
-"\"USER:Lattice Place and Route\""
-"\"USER:LeonardoSpectrum Flow\""
-"\"USER:Microsemi Libero\""
 "\"USER:ModelSim Compile\""
 "\"USER:ModelSim Flow\""
 "\"USER:ModelSim Simulate\""
-"\"USER:Precision Synthesis Flow\""
-"\"USER:Precision Synthesis\""
-"\"USER:Quartus Place and Route\""
-"\"USER:Quartus Programmer\""
-"\"USER:Quartus Synthesis Flow\""
-"\"USER:Quartus Synthesis\""
-"\"USER:QuestaSim Compile\""
-"\"USER:QuestaSim Flow\""
-"\"USER:QuestaSim Simulate\""
-"\"USER:SVAssistant Flow\""
-"\"USER:Xilinx CORE Generator\""
-"\"USER:Xilinx Import\""
-"\"USER:Xilinx Place and Route\""
-"\"USER:Xilinx Platform Studio\""
-"\"USER:Xilinx Synthesis Tool Flow\""
-"\"USER:Xilinx Synthesis Tool\""
-"\"USER:Xilinx Vivado Flow\""
 "USER:Generate"
-"USER:LeonardoSpectrum"
 ]
 taskPreferences [
 (TaskPref
@@ -1221,6 +1139,106 @@ second ""
 ]
 )
 (TaskPref
+taskName "\"USER:Prepare for Synthesis\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second "true"
+)
+]
+)
+(TaskPref
+taskName "\"USER:Prepare for Synthesis\" \"USER:Concatenate HDL\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Prepare for Synthesis\" \"USER:Trim libraries\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Prepare for Synthesis\" USER:Generate"
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
 taskName "\"USER:Quartus Place and Route\""
 taskPrefStringMap [
 (pair
@@ -1771,6 +1789,81 @@ second ""
 ]
 )
 (TaskPref
+taskName "\"USER:Xilinx Project Navigator\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second "true"
+)
+]
+)
+(TaskPref
+taskName "\"USER:Xilinx Project Navigator\" \"USER:Update Project\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Xilinx Project Navigator\" \"USER:Xilinx Project Navigator\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
 taskName "\"USER:Xilinx Synthesis Tool Flow\""
 taskPrefStringMap [
 (pair
@@ -2123,6 +2216,7 @@ second ""
 ]
 mwParamsVisibility (mwParamsVisibilityOptions
 )
+showExprBldrHint 0
 searchStrings [
 ]
 hdlWorkspaceLocation ""
@@ -2131,7 +2225,8 @@ relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
 logWindowGeometry "760x850-10+19"
-diagramBrowserTabNo 1
+diagramBrowserTabNo 0
+showContentFirstTime 0
 )
 (CustomizeUserPreferences
 version "1.0"
@@ -4013,6 +4108,13 @@ name "Default Viewpoint"
 masterDefault 1
 TreeListVPDatas [
 (TreeListVPData
+theList ""
+columns [
+]
+filterString ""
+accessRights 2
+)
+(TreeListVPData
 theList "Design Units"
 columns [
 (TreeListVPData_Column
@@ -5012,12 +5114,44 @@ layoutExpression "V(H(A(C(DesignUnits)),A(C(Files))),H(A(C(DesignHierarchy)),A(C
 ]
 WorkTabs [
 (WorkTab
-name "LCD"
-showingHierarchy 0
+name "Chronometer"
 openLibs [
-"LCD"
+"Chronometer"
 ]
 declHierarchy [
+(DeclHierarchy
+libName "Chronometer"
+primaryName "chronoCircuit"
+secondaryName ""
+)
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Chronometer_test"
+openLibs [
+"Chronometer_test"
+]
+declHierarchy [
+(DeclHierarchy
+libName "Chronometer_test"
+primaryName "chronometer_tb"
+secondaryName ""
+)
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Board"
+openLibs [
+"Board"
+]
+declHierarchy [
+(DeclHierarchy
+libName "Board"
+primaryName "ElN_chrono"
+secondaryName ""
+)
 ]
 activeViewpointIdx 0
 )
@@ -5043,15 +5177,22 @@ size 60
 )
 ]
 displayHierarchy 1
-xPos 119
-yPos 113
+xPos 191
+yPos 58
 width 1237
 height 930
-activeSidePanelTab 0
+activeSidePanelTab 2
 activeLibraryTab 1
 sidePanelSize 280
 showUnixHiddenFiles 0
+componentBrowserXpos 269
+componentBrowserYpos 106
+componentBrowserWidth 632
+componentBrowserHeight 889
 componentBrowserLibraryNames [
+"Chronometer"
+"gates"
+"sequential"
 ]
 )
 (SmPreferences
