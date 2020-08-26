@@ -1266,6 +1266,7 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\work\\edu\\eln\\project\\eln_chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -4353,6 +4354,7 @@ vhdlConfigsName "%(unit)_%(view)_config"
 vhdlConfigsFileNameTemplate "%(config)"
 vhdlConfigsNameTemplate "%(unit)_%(view)_config"
 separateEntity 1
+VHDLEndFrames 0
 )
 (CompilationPreferences
 )
@@ -6365,7 +6367,7 @@ size 190
 displayHierarchy 0
 xPos 0
 yPos 40
-width 1709
+width 1613
 height 944
 activeSidePanelTab 2
 activeLibraryTab 4
